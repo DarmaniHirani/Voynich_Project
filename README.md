@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/23020864.svg)](https://doi.org/10.5281/zenodo.23020864)
 # Voynich Project
 
 An open-source Python automation suite and computational linguistic analysis of the Voynich manuscript.
