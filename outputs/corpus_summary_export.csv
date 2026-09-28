@@ -1,0 +1,108 @@
+line,folio,section,token,definition,category
+2,Folio f1r - Herbal Section,Herbal Section,CHOXAZ,herba / dry stem,Herbal / Botanical
+2,Folio f1r - Herbal Section,Herbal Section,OXD,distilled root,Vessels / Operational
+2,Folio f1r - Herbal Section,Herbal Section,HOLX,leaves / foliage,Herbal / Botanical
+2,Folio f1r - Herbal Section,Herbal Section,BOTANICA,botanical domain / herbal science,Herbal / Botanical
+2,Folio f1r - Herbal Section,Herbal Section,SEGMENT,structural division / folio partition,Syntax & Structural Binders
+2,Folio f1r - Herbal Section,Herbal Section,HERBAL,botanical domain / plant matter,Herbal / Botanical
+2,Folio f1r - Herbal Section,Herbal Section,ONE,position / unit degree,Positional & Degree Markers
+4,Folio f1v - Herbal Section,Herbal Section,ODAI,fluid / bath,Vessels / Operational
+4,Folio f1v - Herbal Section,Herbal Section,SOIIOL,solar position degree,Celestial / Astronomical
+4,Folio f1v - Herbal Section,Herbal Section,XAGREE,aligned structural agreement index,Positional & Degree Markers
+4,Folio f1v - Herbal Section,Herbal Section,FLUID,fluid medium / liquid base,Vessels / Operational
+4,Folio f1v - Herbal Section,Herbal Section,DEGREE,astronomical scale / measurement degree,Celestial / Astronomical
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,VAS,vessel / container,Vessels / Operational
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,VESSE,vessel / container,Vessels / Operational
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,ALIGNEX,aligned state,Positional & Degree Markers
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,YNTAZ,structural stem / plant axis,Herbal / Botanical
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,UM,universal binder / latin um,Syntax & Structural Binders
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,WITH,conjunction / mixed with,Syntax & Structural Binders
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,BOTANICAL,botanical plant / herba,Herbal / Botanical
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,ROOT,botanical radix / underground stem,Herbal / Botanical
+6,Folio f2r - Pharmaceutical Section,Pharmaceutical / Operational Section,STRUCTURE,architectural framework / plant axis,Herbal / Botanical
+8,Folio f2v - Pharmaceutical Section,Pharmaceutical / Operational Section,XISTILLATION,distillation process / fluid separation,Vessels / Operational
+8,Folio f2v - Pharmaceutical Section,Pharmaceutical / Operational Section,PROCESS,operational procedure / phase step,Syntax & Structural Binders
+8,Folio f2v - Pharmaceutical Section,Pharmaceutical / Operational Section,AQUA,water / liquid solvent,Vessels / Operational
+8,Folio f2v - Pharmaceutical Section,Pharmaceutical / Operational Section,LIQUIX,liquid state / fluid,Vessels / Operational
+10,Folio f3r - Herbal Section,Herbal Section,CHOXAII,water plant,Herbal / Botanical
+10,Folio f3r - Herbal Section,Herbal Section,ODAII,fluid flow / stream,Vessels / Operational
+10,Folio f3r - Herbal Section,Herbal Section,ODEX,distilled oil,Vessels / Operational
+12,Folio f3v - Astronomical Section,Astronomical Section,SOII,solar position,Celestial / Astronomical
+12,Folio f3v - Astronomical Section,Astronomical Section,SOL,solar position / thermal application (sol),Celestial / Astronomical
+12,Folio f3v - Astronomical Section,Astronomical Section,OSO,celestial circle / degree,Celestial / Astronomical
+14,Folio f4r - Astronomical Section,Astronomical Section,XAI,mixed substance,Syntax & Structural Binders
+14,Folio f4r - Astronomical Section,Astronomical Section,AII,into position,Positional & Degree Markers
+14,Folio f4r - Astronomical Section,Astronomical Section,HO,matter,Syntax & Structural Binders
+14,Folio f4r - Astronomical Section,Astronomical Section,TH,tincture / sign,Syntax & Structural Binders
+14,Folio f4r - Astronomical Section,Astronomical Section,XEGREE,graduation / degree measure,Positional & Degree Markers
+14,Folio f4r - Astronomical Section,Astronomical Section,MIXED,mixed mixture / combined compound (mixtus),Syntax & Structural Binders
+14,Folio f4r - Astronomical Section,Astronomical Section,DEGREE,astronomical scale / measurement degree,Celestial / Astronomical
+16,Folio f4v - Pharmaceutical Section,Pharmaceutical / Operational Section,FLUIXCONXITIONMARDE,fluid condition marker,Vessels / Operational
+16,Folio f4v - Pharmaceutical Section,Pharmaceutical / Operational Section,AQUA,water / liquid solvent,Vessels / Operational
+16,Folio f4v - Pharmaceutical Section,Pharmaceutical / Operational Section,LIQUIX,liquid state / fluid,Vessels / Operational
+16,Folio f4v - Pharmaceutical Section,Pharmaceutical / Operational Section,ONTAINMENTSTATEMARDE,containment state marker,Syntax & Structural Binders
+18,Folio f5r - Pharmaceutical Section,Pharmaceutical / Operational Section,YNTAZ,structural stem / plant axis,Herbal / Botanical
+18,Folio f5r - Pharmaceutical Section,Pharmaceutical / Operational Section,UM,universal binder / latin um,Syntax & Structural Binders
+18,Folio f5r - Pharmaceutical Section,Pharmaceutical / Operational Section,WITH,conjunction / mixed with,Syntax & Structural Binders
+18,Folio f5r - Pharmaceutical Section,Pharmaceutical / Operational Section,OQUE,boil / process action (coque),Vessels / Operational
+18,Folio f5r - Pharmaceutical Section,Pharmaceutical / Operational Section,BOI,boil / thermal state,Vessels / Operational
+18,Folio f5r - Pharmaceutical Section,Pharmaceutical / Operational Section,REAXING,reaction state / thermal process,Syntax & Structural Binders
+20,Folio f5v - Pharmaceutical Section,Pharmaceutical / Operational Section,FLUIX,fluid state / liquid flow,Vessels / Operational
+20,Folio f5v - Pharmaceutical Section,Pharmaceutical / Operational Section,FLUIXCONXUITNOUNA,fluid conduit / liquid channel,Vessels / Operational
+20,Folio f5v - Pharmaceutical Section,Pharmaceutical / Operational Section,UMO,moisture / humoral state (humor),Syntax & Structural Binders
+20,Folio f5v - Pharmaceutical Section,Pharmaceutical / Operational Section,TADE,graduated state / step measure,Syntax & Structural Binders
+20,Folio f5v - Pharmaceutical Section,Pharmaceutical / Operational Section,BATH,fluid medium / immersion bath (balneum),Vessels / Operational
+20,Folio f5v - Pharmaceutical Section,Pharmaceutical / Operational Section,MIZEX,mixed state / compound (mixtus),Syntax & Structural Binders
+22,Folio f6r - Herbal Section,Herbal Section,UBSTANCE,material substance base (substantia),Syntax & Structural Binders
+22,Folio f6r - Herbal Section,Herbal Section,RAXUATIONMEASUREMARDE,graduation scale / degree marker,Positional & Degree Markers
+22,Folio f6r - Herbal Section,Herbal Section,RAXUS,graduated step / degree measure (gradus),Positional & Degree Markers
+22,Folio f6r - Herbal Section,Herbal Section,ECTO,outer layer / external part,Syntax & Structural Binders
+22,Folio f6r - Herbal Section,Herbal Section,FOLIAGENOUNMORPH,foliage / leaf structure,Herbal / Botanical
+24,Folio f6v - Herbal Section,Herbal Section,LEAVES,foliage / leaf material,Herbal / Botanical
+24,Folio f6v - Herbal Section,Herbal Section,FOLIAGE,leaves / herbal foliage,Herbal / Botanical
+24,Folio f6v - Herbal Section,Herbal Section,MISCE,mix / blend imperative (misce),Syntax & Structural Binders
+24,Folio f6v - Herbal Section,Herbal Section,MIZ,mixture / compound state (mixtus),Syntax & Structural Binders
+24,Folio f6v - Herbal Section,Herbal Section,RINX,rinse / wash pass (rinche),Syntax & Structural Binders
+24,Folio f6v - Herbal Section,Herbal Section,UBJECTMATTERANCHO,base substrate / matter,Syntax & Structural Binders
+24,Folio f6v - Herbal Section,Herbal Section,MATTE,matter / solid base,Syntax & Structural Binders
+26,Folio f7r - Pharmaceutical Section,Pharmaceutical / Operational Section,MARDERTINCTANCHO,tincture extract / active sign,Syntax & Structural Binders
+26,Folio f7r - Pharmaceutical Section,Pharmaceutical / Operational Section,TINCTURE,active tincture (tinctura),Syntax & Structural Binders
+26,Folio f7r - Pharmaceutical Section,Pharmaceutical / Operational Section,IG,fire / thermal element (ignis),Syntax & Structural Binders
+26,Folio f7r - Pharmaceutical Section,Pharmaceutical / Operational Section,XISTILLA,distillation process (distilla),Syntax & Structural Binders
+26,Folio f7r - Pharmaceutical Section,Pharmaceutical / Operational Section,XISTIL,distillate / purified extract,Syntax & Structural Binders
+26,Folio f7r - Pharmaceutical Section,Pharmaceutical / Operational Section,OBSERVE,observe / monitor state (observa),Syntax & Structural Binders
+28,Folio f7v - Herbal Section,Herbal Section,OSITIO,spatial placement / orientation (positio),Syntax & Structural Binders
+28,Folio f7v - Herbal Section,Herbal Section,HERBA,botanical plant / herb (herba),Herbal / Botanical
+28,Folio f7v - Herbal Section,Herbal Section,XR,dry root / radix (radix),Syntax & Structural Binders
+28,Folio f7v - Herbal Section,Herbal Section,TEM,stem axis / plant stem,Herbal / Botanical
+28,Folio f7v - Herbal Section,Herbal Section,WATE,water medium / liquid solvent,Vessels / Operational
+28,Folio f7v - Herbal Section,Herbal Section,FLUIXEZTRACTNOUNB,fluid extract / liquid derivative,Vessels / Operational
+30,Folio f8r - Pharmaceutical Section,Pharmaceutical / Operational Section,XISTILLEX,distillation product / purified liquid,Syntax & Structural Binders
+30,Folio f8r - Pharmaceutical Section,Pharmaceutical / Operational Section,OI,celestial circle / degree position,Celestial / Astronomical
+30,Folio f8r - Pharmaceutical Section,Pharmaceutical / Operational Section,AQUATICNOUNMORPH,water plant / hydro-botanical form,Herbal / Botanical
+30,Folio f8r - Pharmaceutical Section,Pharmaceutical / Operational Section,LANT,plant specimen / botanical base (planta),Herbal / Botanical
+30,Folio f8r - Pharmaceutical Section,Pharmaceutical / Operational Section,FLUIXCONXUITNOUNB,fluid conduit / liquid passage,Vessels / Operational
+30,Folio f8r - Pharmaceutical Section,Pharmaceutical / Operational Section,FLOW,fluid flow / current,Vessels / Operational
+32,Folio f8v - Astronomical Section,Astronomical Section,TREAM,stream / fluid channel,Vessels / Operational
+32,Folio f8v - Astronomical Section,Astronomical Section,ELESTIALXEGREENOU,celestial degree / astronomical position,Celestial / Astronomical
+32,Folio f8v - Astronomical Section,Astronomical Section,ONE,position / unit degree,Positional & Degree Markers
+32,Folio f8v - Astronomical Section,Astronomical Section,LACE,spatial location / placement (locus),Syntax & Structural Binders
+32,Folio f8v - Astronomical Section,Astronomical Section,ELESTIA,celestial body / astronomical state,Celestial / Astronomical
+32,Folio f8v - Astronomical Section,Astronomical Section,IRCLE,celestial circle / orbit (circulus),Celestial / Astronomical
+32,Folio f8v - Astronomical Section,Astronomical Section,HOZAI,foliage / leaf extract,Herbal / Botanical
+34,Folio f9r - Herbal Section,Herbal Section,CHOXAZ,herba / dry stem,Herbal / Botanical
+34,Folio f9r - Herbal Section,Herbal Section,ROOT,botanical radix / underground stem,Herbal / Botanical
+34,Folio f9r - Herbal Section,Herbal Section,LEAVES,foliage / leaf material,Herbal / Botanical
+34,Folio f9r - Herbal Section,Herbal Section,FOLIAGE,leaves / herbal foliage,Herbal / Botanical
+34,Folio f9r - Herbal Section,Herbal Section,BOTANICAL,botanical plant / herba,Herbal / Botanical
+36,Folio f9v - Astronomical Section,Astronomical Section,SOL,solar position / thermal application (sol),Celestial / Astronomical
+36,Folio f9v - Astronomical Section,Astronomical Section,OSO,celestial circle / degree,Celestial / Astronomical
+36,Folio f9v - Astronomical Section,Astronomical Section,SOII,solar position,Celestial / Astronomical
+36,Folio f9v - Astronomical Section,Astronomical Section,DEGREE,astronomical scale / measurement degree,Celestial / Astronomical
+36,Folio f9v - Astronomical Section,Astronomical Section,ALIGNEX,aligned state,Positional & Degree Markers
+38,Folio f10r - Pharmaceutical Section,Pharmaceutical / Operational Section,AQUA,water / liquid solvent,Vessels / Operational
+38,Folio f10r - Pharmaceutical Section,Pharmaceutical / Operational Section,LIQUIX,liquid state / fluid,Vessels / Operational
+38,Folio f10r - Pharmaceutical Section,Pharmaceutical / Operational Section,VESSE,vessel / container,Vessels / Operational
+38,Folio f10r - Pharmaceutical Section,Pharmaceutical / Operational Section,VAS,vessel / container,Vessels / Operational
+38,Folio f10r - Pharmaceutical Section,Pharmaceutical / Operational Section,XISTILLATION,distillation process / fluid separation,Vessels / Operational
+38,Folio f10r - Pharmaceutical Section,Pharmaceutical / Operational Section,BATH,fluid medium / immersion bath (balneum),Vessels / Operational

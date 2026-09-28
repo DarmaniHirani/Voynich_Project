@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue-Bold;\f1\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww44600\viewh25200\viewkind0
+\deftab560
+\pard\pardeftab560\partightenfactor0
+
+\f0\b\fs40 \cf0 Voynich \
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f1\b0\fs26 \cf0 \
+\
+\pard\pardeftab560\slleading20\partightenfactor0
+\cf0 import urllib.request\
+import re\
+\
+class FVSMMassTrial:\
+\'a0 \'a0 """\
+\'a0 \'a0 Automated mass trial processor for the Fixed Vector Shorthand Model (FVSM).\
+\'a0 \'a0 Downloads the entire Interlinear Voynich transcription dataset, filters out\
+\'a0 \'a0 metadata comments, and systematically decodes lines right-to-left.\
+\'a0 \'a0 """\
+\'a0 \'a0 def __init__(self):\
+\'a0 \'a0 \'a0 \'a0 # The Fixed FVSM Cipher Key Matrix\
+\'a0 \'a0 \'a0 \'a0 self.cipher_matrix = \{\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 'g': 'T', 'd': 'T', 'yd': 'T', 't': 'T',\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 'y': 'I', 'l': 'R', 'r': 'R',\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 'k': 'D', 'a': 'A', 'o': 'O', 's': 'S',\'a0\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 'h': 'C', 'c': 'C', 'f': 'F', 'p': 'P'\
+\'a0 \'a0 \'a0 \'a0 \}\
+\'a0 \'a0 \'a0 \'a0 # Standard public repository URL hosting the interlinear transcription format\
+\'a0 \'a0 \'a0 \'a0 self.dataset_url = ""\
+\'a0 \'a0 \'a0 \'a0\'a0{\field{\*\fldinst{HYPERLINK "https://voynich.nu/"}}{\fldrslt \ul https://voynich.nu}}\
+\'a0 \'a0 def process_token(self, token):\
+\'a0 \'a0 \'a0 \'a0 token = token.strip().lower()\
+\'a0 \'a0 \'a0 \'a0 if not token or token.startswith('<') or token.startswith('#'):\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 return ""\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 # Strip structural transcription punctuation\
+\'a0 \'a0 \'a0 \'a0 token = re.sub(r'[-\'96\'97_*,;:]', '', token)\
+\'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 # Rule 1: Vector Reversal (Right-to-Left character read)\
+\'a0 \'a0 \'a0 \'a0 reversed_token = token[::-1]\
+\'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 # Rule 2: Metric Tally Isolation\
+\'a0 \'a0 \'a0 \'a0 if reversed_token in ["or", "ro"]:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 return "[1 TALLY]"\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 # Rule 3: Fixed Character Mapping\
+\'a0 \'a0 \'a0 \'a0 decoded_chars = []\
+\'a0 \'a0 \'a0 \'a0 i = 0\
+\'a0 \'a0 \'a0 \'a0 while i < len(reversed_token):\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 if i + 1 < len(reversed_token) and reversed_token[i:i+2] in self.cipher_matrix:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 decoded_chars.append(self.cipher_matrix[reversed_token[i:i+2]])\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 i += 2\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 elif reversed_token[i] in self.cipher_matrix:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 decoded_chars.append(self.cipher_matrix[reversed_token[i]])\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 i += 1\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 else:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 decoded_chars.append(f"(\{reversed_token[i]\})")\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 i += 1\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 return "".join(decoded_chars)\
+\
+\'a0 \'a0 def decode_line(self, line_text):\
+\'a0 \'a0 \'a0 \'a0 # Extract purely the Voynich text tokens from the interlinear format\
+\'a0 \'a0 \'a0 \'a0 tokens = line_text.split()\
+\'a0 \'a0 \'a0 \'a0 voynich_tokens = [t for t in tokens if not t.startswith('<') and not t.startswith('#')]\
+\'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 if not voynich_tokens:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 return None\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 # Reverse the word block sequence (Right-to-Left line vector progression)\
+\'a0 \'a0 \'a0 \'a0 reversed_tokens = voynich_tokens[::-1]\
+\'a0 \'a0 \'a0 \'a0 decoded_line = [self.process_token(t) for t in reversed_tokens if self.process_token(t)]\
+\'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 return " . ".join(decoded_line) if decoded_line else None\
+\
+\'a0 \'a0 def execute_global_trial(self, output_filename="fvsm_global_ledger.txt"):\
+\'a0 \'a0 \'a0 \'a0 print(f"Connecting to data repository at Voynich.nu...")\
+\'a0 \'a0 \'a0 \'a0 try:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 req = urllib.request.Request(self.dataset_url, headers=\{'User-Agent': 'Mozilla/5.0'\})\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 with urllib.request.urlopen(req) as response:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 raw_data = response.read().decode('utf-8', errors='ignore')\
+\'a0 \'a0 \'a0 \'a0 except Exception as e:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 print(f"Error fetching data file: \{e\}")\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 return\
+\
+\'a0 \'a0 \'a0 \'a0 lines = raw_data.split('\\n')\
+\'a0 \'a0 \'a0 \'a0 print(f"Successfully downloaded full manuscript dataset (\{len(lines)\} lines parsed).")\
+\'a0 \'a0 \'a0 \'a0 print("Executing mass right-to-left decryption under FVSM rules...")\
+\
+\'a0 \'a0 \'a0 \'a0 processed_count = 0\
+\'a0 \'a0 \'a0 \'a0 with open(output_filename, "w", encoding="utf-8") as out_file:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 for raw_line in lines:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 if not raw_line.strip() or raw_line.startswith('#'):\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 continue\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 # Extract folio locator metadata tags (e.g., <f1r>)\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 locator_match = re.search(r'<f\\d+[rv]>', raw_line)\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 locator = locator_match.group(0) if locator_match else "[Unknown Folio]"\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0\'a0\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 decoded_result = self.decode_line(raw_line)\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 if decoded_result:\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 out_file.write(f"\{locator\} | \{decoded_result\}\\n")\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 processed_count += 1\
+\
+\'a0 \'a0 \'a0 \'a0 print("-" * 60)\
+\'a0 \'a0 \'a0 \'a0 print(f"MASS TRIAL ARCHIVED SUCCESSFULLY.")\
+\'a0 \'a0 \'a0 \'a0 print(f"Total processed data rows recorded: \{processed_count\}")\
+\'a0 \'a0 \'a0 \'a0 print(f"Full ledger saved locally inside your directory as: '\{output_filename\}'")\
+\'a0 \'a0 \'a0 \'a0 print("-" * 60)\
+\
+if __name__ == "__main__":\
+\'a0 \'a0 trial_runner = FVSMMassTrial()\
+\'a0 \'a0 trial_runner.execute_global_trial()\
+}

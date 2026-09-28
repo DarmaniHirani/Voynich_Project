@@ -1,0 +1,263 @@
+{
+    "corpus_coverage": "87.99%",
+    "mapped_stems": {
+        "CHOXAZ": "herba / dry stem",
+        "OXD": "distilled root",
+        "OXA": "herba / dry stem",
+        "HOLX": "leaves / foliage",
+        "CHOXAII": "water plant",
+        "ODAI": "fluid / bath",
+        "ODAII": "fluid flow / stream",
+        "ODEX": "distilled oil",
+        "SOII": "solar position",
+        "SOIIOL": "solar position degree",
+        "SOL": "solar position / thermal application (sol)",
+        "OSO": "celestial circle / degree",
+        "XAI": "mixed substance",
+        "AII": "into position",
+        "HO": "matter",
+        "TH": "tincture / sign",
+        "XEGREE": "graduation / degree measure",
+        "FLUIXCONXITIONMARDE": "fluid condition marker",
+        "AQUA": "water / liquid solvent",
+        "LIQUIX": "liquid state / fluid",
+        "ONTAINMENTSTATEMARDE": "containment state marker",
+        "VAS": "vessel / container",
+        "VESSE": "vessel / container",
+        "ALIGNEX": "aligned state",
+        "YNTAZ": "structural stem / plant axis",
+        "UM": {
+            "definition": "operational fluid modifier / secondary element"
+        },
+        "WITH": "conjunction / mixed with",
+        "OQUE": "boil / process action (coque)",
+        "BOI": "boil / thermal state",
+        "REAXING": "reaction state / thermal process",
+        "FLUIX": "fluid state / liquid flow",
+        "FLUIXCONXUITNOUNA": "fluid conduit / liquid channel",
+        "UMO": "moisture / humoral state (humor)",
+        "TADE": "graduated state / step measure",
+        "ELECT": "select / extract action (electio)",
+        "BATH": "fluid medium / immersion bath (balneum)",
+        "MIZEX": "mixed state / compound (mixtus)",
+        "UBSTANCE": "material substance base (substantia)",
+        "RAXUATIONMEASUREMARDE": "graduation scale / degree marker",
+        "RAXUS": "graduated step / degree measure (gradus)",
+        "ECTO": "outer layer / external part",
+        "FOLIAGENOUNMORPH": "foliage / leaf structure",
+        "LEAVES": "foliage / leaf material",
+        "FOLIAGE": "leaves / herbal foliage",
+        "MISCE": "mix / blend imperative (misce)",
+        "MIZ": "mixture / compound state (mixtus)",
+        "RINX": "rinse / wash pass (rinche)",
+        "UBJECTMATTERANCHO": "base substrate / matter",
+        "MATTE": "matter / solid base",
+        "MARDERTINCTANCHO": "tincture extract / active sign",
+        "TINCTURE": "active tincture (tinctura)",
+        "IG": "fire / thermal element (ignis)",
+        "XISTILLA": "distillation process (distilla)",
+        "XISTIL": "distillate / purified extract",
+        "OBSERVE": "observe / monitor state (observa)",
+        "OSITIO": "spatial placement / orientation (positio)",
+        "HERBA": "botanical plant / herb (herba)",
+        "BOTANICALNOUNMORPHA": "botanical morphology / plant form",
+        "XR": "dry root / radix (radix)",
+        "TEM": "stem axis / plant stem",
+        "WATE": "water medium / liquid solvent",
+        "FLUIXEZTRACTNOUNB": "fluid extract / liquid derivative",
+        "XISTILLEX": "distillation product / purified liquid",
+        "OI": "celestial circle / degree position",
+        "AQUATICNOUNMORPH": "water plant / hydro-botanical form",
+        "LANT": "plant specimen / botanical base (planta)",
+        "FLUIXCONXUITNOUNB": "fluid conduit / liquid passage",
+        "FLOW": "fluid flow / current",
+        "TREAM": "stream / fluid channel",
+        "ELESTIALXEGREENOU": "celestial degree / astronomical position",
+        "ONE": "position / unit degree",
+        "LACE": "spatial location / placement (locus)",
+        "ELESTIA": "celestial body / astronomical state",
+        "IRCLE": "celestial circle / orbit (circulus)",
+        "HOZAI": "foliage / leaf extract",
+        "HOLZ": "leaves / plant foliage",
+        "OIIO": "degree position / ring marker",
+        "HISQUARE": "quadrant / spatial frame",
+        "XZ": "fixed position / axis state",
+        "POSITIONA": "spatial placement / orientation",
+        "LOTS": "plot / spatial region (locus)",
+        "BOTANICA": "botanical domain / herbal science",
+        "RING": "celestial ring / orbit marker",
+        "ELESTIALPOSNOUNA": "celestial orientation / astronomical position",
+        "OLA": "solar aspect / sun position (sola)",
+        "HARMACEUTICA": "pharmaceutical preparation / apothecary domain",
+        "X2": "squared scale degree / exponent state",
+        "EZPANSIO": "expansion / fluid growth (expansio)",
+        "OXEZ": "processed oxide / calcined state",
+        "FIZEX": "fixed state / stabilized base (fixus)",
+        "VECTO": "carrier medium / conduit flow (vector)",
+        "HORTHANX": "enclosed garden / botanical bed (hortus)",
+        "MOXE": "macerated / softened matter",
+        "X\u00b2": "squared scale degree / exponent state",
+        "XUA": "water / liquid derivative (aqua)",
+        "TRANSLATIO": "transfer / shift state (translatio)",
+        "BIOLOGICA": "organic matter / biological science",
+        "ASTRONOMICA": "astronomical section / celestial science",
+        "OUTE": "outer boundary / exterior perimeter",
+        "CHOXAI": "herba / dry plant variant",
+        "CHOLX": "foliage / leaf variant",
+        "OSITIONA": "spatial placement / orientation",
+        "SOIIO": "solar position / solar degree (sol)",
+        "OSMOLOGICA": "cosmological domain / astronomical section",
+        "INITIA": "initial state / starting point (initium)",
+        "TOTA": "total quantity / complete measure (tota)",
+        "LINE": "line delimiter / structural break",
+        "I": "primary item / initial element (unus)",
+        "OPERATIONALVERBCLASS": "procedural verb marker / action directive",
+        "EGREE": "degree step / astronomical measure (gradus)",
+        "FLUIDCONDITIONMARKE": "fluid state indicator / moisture marker",
+        "LIQUID": "liquid solvent / fluid bath",
+        "ONTAINMENTSTATEMARKE": "vessel hold marker / containment state",
+        "ALIGNED": "aligned position / celestial orientation",
+        "YNTAX": "syntax marker / procedural order",
+        "ROCESS": "process state / active transformation",
+        "INPUT": "input ingredient / additive component",
+        "READING": "reading marker / observation value",
+        "FLUID": "fluid medium / liquid base",
+        "TAKE": "recipe directive / take component (recipe)",
+        "OKAI": "botanical compound / leaf variant",
+        "AI": "active element / essential agent",
+        "MIXED": "mixed mixture / combined compound (mixtus)",
+        "TO": "directional marker / target container (ad)",
+        "RADUATIONMEASUREMARKE": "graduation scale / measurement step",
+        "RADUS": "radius line / vector step (gradus)",
+        "CHODAII": "extract compound / botanical derivative",
+        "CHODAX": "botanical extract / herbal mixture",
+        "KAIN": "elemental constituent / active principal",
+        "SAR": "astronomical cycle / saros period",
+        "EOR": "horizon alignment / eastern vector",
+        "DARA": "containment vessel / holding basin",
+        "MOL": "maceration state / ground element (mola)",
+        "FIXED": "fixed root / radix stabilis",
+        "VECTOR": "leaf vector / folium directional",
+        "SHORTHAND": "herbal extract / succus",
+        "MODEL": "botanical specimen / forma",
+        "PHVSM": "apothecary measure / vasum",
+        "BOTANICAL": "botanical plant / herba",
+        "SECTOR": "flower petal / flos",
+        "OUTER": "outer bark / cortex",
+        "LAYER": "membrane / tunica",
+        "CARRIER": "liquid solvent / aqua",
+        "MEDIUM": "extract base / menstruum",
+        "DEGREE": "astronomical scale / measurement degree",
+        "SEGMENT": "structural division / folio partition",
+        "HERBAL": "botanical domain / plant matter",
+        "XAGREE": "aligned structural agreement index",
+        "ROOT": "botanical radix / underground stem",
+        "STRUCTURE": "architectural framework / plant axis",
+        "XISTILLATION": "distillation process / fluid separation",
+        "PROCESS": "operational procedure / phase step",
+        "AND": {
+            "definition": "structural binder / grammatical conjunction"
+        },
+        "SOLVENT": {
+            "definition": "operational fluid modifier / secondary element"
+        },
+        "CELESTIAL": {
+            "definition": "operational fluid modifier / secondary element"
+        },
+        "CIRCLE": {
+            "definition": "operational fluid modifier / secondary element"
+        },
+        "ENTRY": {
+            "definition": "primary morphological core token"
+        },
+        "ANALYSIS": {
+            "definition": "primary morphological core token"
+        },
+        "TRACKING": {
+            "definition": "primary morphological core token"
+        },
+        "ACTIVE": {
+            "definition": "primary morphological core token"
+        },
+        "COMPOUNDS": {
+            "definition": "primary morphological core token"
+        },
+        "PLANT": {
+            "definition": "herbal botanical radix component"
+        },
+        "WATER": {
+            "definition": "primary morphological core token"
+        },
+        "DISTILLED": {
+            "definition": "primary morphological core token"
+        },
+        "OIL": {
+            "definition": "primary morphological core token"
+        },
+        "PATHWAY": {
+            "definition": "primary morphological core token"
+        },
+        "THERMAL": {
+            "definition": "primary morphological core token"
+        },
+        "APPLICATION": {
+            "definition": "primary morphological core token"
+        },
+        "INDEX": {
+            "definition": "structural binder / grammatical conjunction"
+        },
+        "SUBSTANCE": {
+            "definition": "primary morphological core token"
+        },
+        "MATTER": {
+            "definition": "primary morphological core token"
+        },
+        "SIGN": {
+            "definition": "primary morphological core token"
+        },
+        "VESSEL": {
+            "definition": "operational fluid vessel / pharmaceutical element"
+        },
+        "STATE": {
+            "definition": "primary morphological core token"
+        },
+        "STRUCTURAL": {
+            "definition": "primary morphological core token"
+        },
+        "BOILING": {
+            "definition": "primary morphological core token"
+        },
+        "REACTION": {
+            "definition": "primary morphological core token"
+        },
+        "PHASE": {
+            "definition": "primary morphological core token"
+        },
+        "BOTANICALNOUNMORPH": {
+            "definition": "herbal botanical radix component"
+        },
+        "RADIX": {
+            "definition": "structural binder / grammatical conjunction"
+        },
+        "STEM": {
+            "definition": "primary morphological core token"
+        },
+        "ORBIT": {
+            "definition": "primary morphological core token"
+        }
+    },
+    "prefix_slot_chars": [
+        "C",
+        "G",
+        "D",
+        "P",
+        "Q",
+        "S"
+    ],
+    "suffix_slot_chars": [
+        "N",
+        "L",
+        "Y",
+        "R"
+    ]
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "token_a": "YNTAZ",
+        "token_b": "UM",
+        "frequency": 2
+    },
+    {
+        "token_a": "UM",
+        "token_b": "WITH",
+        "frequency": 2
+    },
+    {
+        "token_a": "AQUA",
+        "token_b": "LIQUIX",
+        "frequency": 2
+    },
+    {
+        "token_a": "CHOXAZ",
+        "token_b": "OXD",
+        "frequency": 1
+    },
+    {
+        "token_a": "OXD",
+        "token_b": "HOLX",
+        "frequency": 1
+    },
+    {
+        "token_a": "HOLX",
+        "token_b": "BOTANICA",
+        "frequency": 1
+    },
+    {
+        "token_a": "BOTANICA",
+        "token_b": "SEGMENT",
+        "frequency": 1
+    },
+    {
+        "token_a": "SEGMENT",
+        "token_b": "HERBAL",
+        "frequency": 1
+    },
+    {
+        "token_a": "HERBAL",
+        "token_b": "ONE",
+        "frequency": 1
+    },
+    {
+        "token_a": "ODAI",
+        "token_b": "SOIIOL",
+        "frequency": 1
+    }
+]

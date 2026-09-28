@@ -1,0 +1,17 @@
+[
+    {
+        "line": 1,
+        "token": "cth",
+        "audit_detail": "[MATCH] Stem 'cth' identified as Artemisia absinthium (Wormwood) [Herbal]"
+    },
+    {
+        "line": 2,
+        "token": "aloe",
+        "audit_detail": "[MATCH] Stem 'aloe' identified as Aloe vera (Aloe) [Herbal]"
+    },
+    {
+        "line": 3,
+        "token": "ros",
+        "audit_detail": "[MATCH] Stem 'ros' identified as Rosmarinus officinalis (Rosemary) [Herbal]"
+    }
+]

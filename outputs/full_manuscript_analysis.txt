@@ -1,0 +1,23 @@
+================================================================================
+FVSM FULL-CORPUS PARSER — RESULTS FOR: voynich_eva_full.txt
+================================================================================
+Total Tokens Processed Across Corpus: 3114
+
+📊 TOP UNMAPPED STEMS (LEXICON EXPANSION TARGETS):
+--------------------------------------------------
+Stem: →            | Occurrences: 264   | Impact: 8.48%
+Stem: LINE         | Occurrences: 132   | Impact: 4.24%
+Stem: I            | Occurrences: 131   | Impact: 4.21%
+Stem: XEGREE       | Occurrences: 117   | Impact: 3.76%
+Stem: FLUIXCONXITIONMARDE | Occurrences: 84    | Impact: 2.70%
+Stem: UM           | Occurrences: 84    | Impact: 2.70%
+Stem: AQUA         | Occurrences: 84    | Impact: 2.70%
+Stem: WITH         | Occurrences: 84    | Impact: 2.70%
+Stem: LIQUIX       | Occurrences: 84    | Impact: 2.70%
+Stem: 1            | Occurrences: 75    | Impact: 2.41%
+Stem: 2            | Occurrences: 63    | Impact: 2.02%
+Stem: ONTAINMENTSTATEMARDE | Occurrences: 52    | Impact: 1.67%
+Stem: VAS          | Occurrences: 52    | Impact: 1.67%
+Stem: VESSE        | Occurrences: 52    | Impact: 1.67%
+Stem: ALIGNEX      | Occurrences: 52    | Impact: 1.67%
+--------------------------------------------------
