@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![DOI](https://zenodo.org/badge/23020864.svg)](https://doi.org/10.5281/zenodo.23020864)
 # Voynich Project
 
@@ -24,3 +25,6 @@ Below is a sample decoded ledger output showcasing a processed section of the ma
 
 | Raw Token / Folio | Processed Vector | Translated Ledger Output |
 | f1r | T-I-R-D-A | Unit Tracker - Initial Folio Ledger Entry |
+=======
+# Voynich_Project: Fixed Vector Shorthand Model (FVSM)
+>>>>>>> 260bcdf (Update README with professional FVSM framework overview)
