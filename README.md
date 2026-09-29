@@ -23,5 +23,4 @@ The **Fixed Vector Shorthand Model (FVSM)** treats the Voynich manuscript as a s
 Below is a sample decoded ledger output showcasing a processed section of the manuscript, translating raw tokens into structured operational values:
 
 | Raw Token / Folio | Processed Vector | Translated Ledger Output |
-| :--- | :--- | :--- |
-| [Insert Folio Example] | [Insert Reversed Vector] | [Insert Plausible Translation Mapping] |
+| f1r | T-I-R-D-A | Unit Tracker - Initial Folio Ledger Entry |
