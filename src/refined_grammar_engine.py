@@ -7,7 +7,7 @@ def evaluate_refined_rules(corpus_path="data/full_manuscript_transcription.txt",
         print("[ERROR] Corpus or lexicon file missing.")
         return
 
-    with open(lexicon_path, 'r', encoding='utf-8') as f:
+    with open(lexicon_path, "r", encoding="utf-8") as f:
         lexicon_data = json.load(f)
         stems = lexicon_data.get("mapped_stems", {})
 
@@ -29,9 +29,12 @@ def evaluate_refined_rules(corpus_path="data/full_manuscript_transcription.txt",
     compliant_lines = 0
     rule_breakdown = Counter()
 
-    with open(corpus_path, 'r', encoding='utf-8') as f:
+    with open(corpus_path, "r", encoding="utf-8") as f:
         for line in f:
             if line.startswith("["):
+                continue
+            # Skip English annotation/gloss lines
+            if any(term in line.lower() for term in ["mixed substance", "matter sign", "foliagenounmorph"]):
                 continue
             tokens = [t.strip("[].,").upper() for t in line.split() if not t.startswith("[")]
             if not tokens:
@@ -40,6 +43,15 @@ def evaluate_refined_rules(corpus_path="data/full_manuscript_transcription.txt",
             total_lines += 1
             is_compliant = True
             
+            # RULE 1: Mandatory Core Term Check
+            line_themes = [token_themes.get(t, "MODIFIER") for t in tokens]
+            has_core_term = any(theme in ["HERBAL", "PHARMACEUTICAL"] for theme in line_themes)
+            
+            if not has_core_term:
+                is_compliant = False
+                rule_breakdown["Missing Core Anchor Term"] += 1
+            
+            # RULE 2: Strict Conjunction Clustering Check
             for i in range(len(tokens) - 1):
                 t1, t2 = tokens[i], tokens[i+1]
                 th1 = token_themes.get(t1, "MODIFIER")
@@ -63,7 +75,6 @@ def evaluate_refined_rules(corpus_path="data/full_manuscript_transcription.txt",
 
     print(f"\n==================================================")
     print(f" Refined Grammar Compliance Score: {compliance_score:.1f}%")
-    print(f"==================================================")
 
 if __name__ == "__main__":
     evaluate_refined_rules()
