@@ -1,5 +1,15 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23057818.svg)](https://doi.org/10.5281/zenodo.23057818)
 
+## 🔬 Reproducibility & One-Click Validation
+
+In scientific research, reproducibility is the ultimate shield against skepticism. We have engineered the repository so that any independent critic or researcher can verify our adversarial control scores on their own machine in seconds.
+
+### Run the Control Test
+Ensure you have Python installed, clone the repository, and execute the following command in your terminal:
+
+```bash
+python adversarial_control_test.py
+
 # Voynich Project
 
 An open-source Python automation suite and computational linguistic analysis of the Voynich manuscript.
