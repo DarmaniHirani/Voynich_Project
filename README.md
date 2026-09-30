@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-[![DOI](https://zenodo.org/badge/23020864.svg)](https://doi.org/10.5281/zenodo.23020864)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23057818.svg)](https://doi.org/10.5281/zenodo.23057818)
+
 # Voynich Project
 
 An open-source Python automation suite and computational linguistic analysis of the Voynich manuscript.
