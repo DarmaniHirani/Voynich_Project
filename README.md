@@ -37,4 +37,4 @@ Below is a sample decoded ledger output showcasing a processed section of the ma
 | f1r | T-I-R-D-A | Unit Tracker - Initial Folio Ledger Entry |
 =======
 # Voynich_Project: Fixed Vector Shorthand Model (FVSM)
->>>>>>> 260bcdf (Update README with professional FVSM framework overview)
+(Update README with professional FVSM framework overview)
