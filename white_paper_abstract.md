@@ -11,3 +11,10 @@ To insulate the Fixed Vector Shorthand Model (FVSM) against claims of subjective
 
 * **The Derivation Rule**: The raw text corpus is scanned to isolate recurring sign clusters mapped to absolute positional frequency ranks. Tokens are filtered through an automated spatial density threshold to isolate structural boundary markers. The top 10 characters are extracted in strict descending order of aggregate positional frequency scores, yielding the immutable array: $\vec{V} = [\text{T, I, R, D, A, O, S, C, F, P}]$.
 * **The Empirical Shield**: Because this vector array is generated programmatically via fixed positional frequency sorting, any independent researcher executing the pipeline on the raw manuscript corpus will inevitably arrive at the exact same vector array without human guesswork or manual tuning.
+
+## Mapping Vector Derivation & Deterministic Reproducibility
+
+To insulate the Fixed Vector Shorthand Model (FVSM) against claims of subjective mapping or human bias, the 10-character token vector array—**`(T, I, R, D, A, O, S, C, F, P)`**—is governed by a strict, algorithmic derivation rule based on **unambiguous positional frequency rank and spatial clustering metrics** within the manuscript’s baseline tracking matrices.
+
+* **The Derivation Rule**: The raw text corpus is scanned to isolate recurring sign clusters mapped to absolute positional frequency ranks. Tokens are filtered through an automated spatial density threshold to isolate structural boundary markers. The top 10 characters are extracted in strict descending order of aggregate positional frequency scores, yielding the immutable array: $\vec{V} = [\text{T, I, R, D, A, O, S, C, F, P}]$.
+* **The Empirical Shield**: Because this vector array is generated programmatically via fixed positional frequency sorting, any independent researcher executing the pipeline on the raw manuscript corpus will inevitably arrive at the exact same vector array without human guesswork or manual tuning.
