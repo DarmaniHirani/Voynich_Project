@@ -31,3 +31,10 @@ This document records the empirical stress-testing metrics executed to harden th
 * **Critique:** Human transcription errors in input files skew the high-precision statistical outputs.
 * **Hardening Measure:** Transcription Error-Injection Stress Test (`transcription_stress_test.py`) introducing 5%, 10%, and 15% random error rates into input streams.
 * **Empirical Results:** Even under a heavy 15% human transcription error rate, the model's compliance score gracefully retains strong structural stability (>80%), proving high resilience against data entry bias.
+
+---
+
+## 7. Flaw 7: The Translation Bridge / Sigla Mapping Extension (Resolved)
+* **Critique:** The framework acts as an isolated normalizer without offering downstream textual candidates.
+* **Hardening Measure:** Token-to-Sigla Dictionary Mapping Module (`sigla_mapping_engine.py`) cross-referencing normalized tokens against digitized 14th-century Latin shorthand contraction datasets.
+* **Conclusion:** Provides ranked, probabilistic historical expansions (e.g., matching vector nodes to standard administrative prefixes like *con-/per-* and prepositions like *autem*) equipped with statistical confidence scores, shifting the tool from an abstract normalizer into an active philological discovery engine for human historians.
