@@ -1,0 +1,344 @@
+{
+    "Cluster_CHOXAZ": [
+        "CHOXAZ",
+        "OXA",
+        "HOLX",
+        "CHOXAII",
+        "HOLZ",
+        "OXEZ",
+        "CHOXAI",
+        "CHOLX",
+        "CHODAII",
+        "CHODAX"
+    ],
+    "Cluster_OXD": [
+        "OXD",
+        "OXA"
+    ],
+    "Cluster_ODAI": [
+        "ODAI",
+        "ODAII",
+        "OI",
+        "HOZAI",
+        "CHOXAI",
+        "OKAI",
+        "AI",
+        "CHODAII",
+        "CHODAX"
+    ],
+    "Cluster_ODEX": [
+        "ODEX",
+        "CHODAX",
+        "MODEL"
+    ],
+    "Cluster_SOII": [
+        "ODAII",
+        "SOII",
+        "SOIIOL",
+        "OI",
+        "OIIO",
+        "SOIIO"
+    ],
+    "Cluster_SOL": [
+        "SOIIOL",
+        "SOL",
+        "OSO",
+        "OLA",
+        "MOL"
+    ],
+    "Cluster_XAI": [
+        "OXA",
+        "CHOXAII",
+        "XAI",
+        "AII",
+        "XUA",
+        "CHOXAI",
+        "AI"
+    ],
+    "Cluster_HO": [
+        "HOLX",
+        "HO",
+        "HOLZ"
+    ],
+    "Cluster_TH": [
+        "TH",
+        "WITH",
+        "BATH"
+    ],
+    "Cluster_XEGREE": [
+        "XEGREE",
+        "EGREE",
+        "DEGREE",
+        "XAGREE"
+    ],
+    "Cluster_FLUIXCONXITIONMARDE": [
+        "FLUIXCONXITIONMARDE",
+        "FLUIXCONXUITNOUNA",
+        "FLUIXCONXUITNOUNB",
+        "FLUIDCONDITIONMARKE"
+    ],
+    "Cluster_AQUA": [
+        "AQUA"
+    ],
+    "Cluster_LIQUIX": [
+        "LIQUIX",
+        "FLUIX",
+        "LIQUID"
+    ],
+    "Cluster_ONTAINMENTSTATEMARDE": [
+        "ONTAINMENTSTATEMARDE",
+        "ONTAINMENTSTATEMARKE"
+    ],
+    "Cluster_VAS": [
+        "VAS"
+    ],
+    "Cluster_VESSE": [
+        "VESSE"
+    ],
+    "Cluster_ALIGNEX": [
+        "ALIGNEX",
+        "LINE",
+        "ALIGNED"
+    ],
+    "Cluster_YNTAZ": [
+        "YNTAZ",
+        "YNTAX"
+    ],
+    "Cluster_UM": [
+        "UM",
+        "UMO"
+    ],
+    "Cluster_OQUE": [
+        "OQUE",
+        "OUTE",
+        "OUTER"
+    ],
+    "Cluster_BOI": [
+        "BOI",
+        "OI"
+    ],
+    "Cluster_REAXING": [
+        "REAXING",
+        "RING",
+        "READING"
+    ],
+    "Cluster_TADE": [
+        "TADE",
+        "TAKE"
+    ],
+    "Cluster_ELECT": [
+        "ELECT",
+        "ECTO",
+        "ELESTIA",
+        "VECTO"
+    ],
+    "Cluster_MIZEX": [
+        "MIZEX",
+        "MISCE",
+        "MIZ",
+        "FIZEX",
+        "MIXED"
+    ],
+    "Cluster_UBSTANCE": [
+        "UBSTANCE",
+        "BOTANICA"
+    ],
+    "Cluster_RAXUATIONMEASUREMARDE": [
+        "RAXUATIONMEASUREMARDE",
+        "RADUATIONMEASUREMARKE"
+    ],
+    "Cluster_RAXUS": [
+        "RAXUS",
+        "RADUS"
+    ],
+    "Cluster_FOLIAGENOUNMORPH": [
+        "FOLIAGENOUNMORPH",
+        "FOLIAGE",
+        "BOTANICALNOUNMORPHA",
+        "AQUATICNOUNMORPH"
+    ],
+    "Cluster_LEAVES": [
+        "LEAVES"
+    ],
+    "Cluster_RINX": [
+        "RINX",
+        "RING"
+    ],
+    "Cluster_UBJECTMATTERANCHO": [
+        "UBJECTMATTERANCHO"
+    ],
+    "Cluster_MATTE": [
+        "MATTE",
+        "WATE"
+    ],
+    "Cluster_MARDERTINCTANCHO": [
+        "MARDERTINCTANCHO"
+    ],
+    "Cluster_TINCTURE": [
+        "TINCTURE",
+        "STRUCTURE"
+    ],
+    "Cluster_IG": [
+        "IG",
+        "RING",
+        "I"
+    ],
+    "Cluster_XISTILLA": [
+        "XISTILLA",
+        "XISTIL",
+        "XISTILLEX",
+        "XISTILLATION"
+    ],
+    "Cluster_OBSERVE": [
+        "OBSERVE"
+    ],
+    "Cluster_OSITIO": [
+        "SOII",
+        "SOIIOL",
+        "OSO",
+        "OSITIO",
+        "OIIO",
+        "POSITIONA",
+        "OSITIONA",
+        "SOIIO"
+    ],
+    "Cluster_HERBA": [
+        "HERBA",
+        "HERBAL"
+    ],
+    "Cluster_XR": [
+        "XR"
+    ],
+    "Cluster_TEM": [
+        "TEM",
+        "TREAM"
+    ],
+    "Cluster_FLUIXEZTRACTNOUNB": [
+        "FLUIXCONXUITNOUNA",
+        "FLUIXEZTRACTNOUNB",
+        "FLUIXCONXUITNOUNB"
+    ],
+    "Cluster_LANT": [
+        "LANT"
+    ],
+    "Cluster_FLOW": [
+        "FLOW"
+    ],
+    "Cluster_ELESTIALXEGREENOU": [
+        "ELESTIALXEGREENOU",
+        "ELESTIALPOSNOUNA"
+    ],
+    "Cluster_ONE": [
+        "ONE"
+    ],
+    "Cluster_LACE": [
+        "LEAVES",
+        "LACE",
+        "LAYER"
+    ],
+    "Cluster_IRCLE": [
+        "MISCE",
+        "IRCLE"
+    ],
+    "Cluster_HISQUARE": [
+        "HISQUARE"
+    ],
+    "Cluster_XZ": [
+        "XZ",
+        "OXEZ"
+    ],
+    "Cluster_LOTS": [
+        "LOTS"
+    ],
+    "Cluster_HARMACEUTICA": [
+        "HARMACEUTICA"
+    ],
+    "Cluster_X2": [
+        "X2"
+    ],
+    "Cluster_EZPANSIO": [
+        "EZPANSIO"
+    ],
+    "Cluster_HORTHANX": [
+        "HORTHANX",
+        "SHORTHAND"
+    ],
+    "Cluster_MOXE": [
+        "OXEZ",
+        "MOXE",
+        "MIXED",
+        "MODEL"
+    ],
+    "Cluster_X\u00b2": [
+        "X\u00b2"
+    ],
+    "Cluster_TRANSLATIO": [
+        "TRANSLATIO"
+    ],
+    "Cluster_BIOLOGICA": [
+        "BIOLOGICA",
+        "OSMOLOGICA"
+    ],
+    "Cluster_ASTRONOMICA": [
+        "ASTRONOMICA"
+    ],
+    "Cluster_INITIA": [
+        "INITIA"
+    ],
+    "Cluster_TOTA": [
+        "TOTA",
+        "TO"
+    ],
+    "Cluster_OPERATIONALVERBCLASS": [
+        "OPERATIONALVERBCLASS"
+    ],
+    "Cluster_ROCESS": [
+        "ROCESS",
+        "PROCESS"
+    ],
+    "Cluster_INPUT": [
+        "INPUT"
+    ],
+    "Cluster_FLUID": [
+        "FLUIX",
+        "LIQUID",
+        "FLUID",
+        "FIXED"
+    ],
+    "Cluster_KAIN": [
+        "OKAI",
+        "AI",
+        "KAIN"
+    ],
+    "Cluster_SAR": [
+        "SAR"
+    ],
+    "Cluster_EOR": [
+        "EOR",
+        "VECTOR",
+        "SECTOR"
+    ],
+    "Cluster_DARA": [
+        "DARA"
+    ],
+    "Cluster_PHVSM": [
+        "PHVSM"
+    ],
+    "Cluster_BOTANICAL": [
+        "BOTANICALNOUNMORPHA",
+        "BOTANICA",
+        "BOTANICAL"
+    ],
+    "Cluster_CARRIER": [
+        "CARRIER"
+    ],
+    "Cluster_MEDIUM": [
+        "MEDIUM"
+    ],
+    "Cluster_SEGMENT": [
+        "SEGMENT"
+    ],
+    "Cluster_ROOT": [
+        "ROOT"
+    ]
+}

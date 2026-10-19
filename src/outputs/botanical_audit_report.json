@@ -1,0 +1,122 @@
+[
+    {
+        "row": 1,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 1,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 1,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    },
+    {
+        "row": 2,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 2,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 2,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    },
+    {
+        "row": 3,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 3,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 3,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    },
+    {
+        "row": 4,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 4,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 4,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    },
+    {
+        "row": 5,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 5,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 5,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    },
+    {
+        "row": 6,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 6,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 6,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    },
+    {
+        "row": 7,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 7,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 7,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    },
+    {
+        "row": 8,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 8,
+        "token": "O",
+        "audit_detail": "[MATCH] Sigla Identified: O -> Expands to 'Orbis (Circular follicle boundary or globular seed node)'"
+    },
+    {
+        "row": 8,
+        "token": "P",
+        "audit_detail": "[MATCH] Sigla Identified: P -> Expands to 'Pes / Planta (Botanical pedal axis or primary stem structure)'"
+    }
+]

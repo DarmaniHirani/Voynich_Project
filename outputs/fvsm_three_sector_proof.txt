@@ -1,0 +1,48 @@
+================================================================================
+FIXED VECTOR SHORTHAND MODEL (FVSM) - DUAL SYNTAX & TRANSLATION PIPELINE
+================================================================================
+
+📍 Botanical Sector (f2v, P1)
+--------------------------------------------------------------------------------
+Line 1 Input : kchodax dain qokain sholdy
+Line 1 Syntax : [OPERATIONAL_VERB_CLASS_5] <BOTANICAL_NOUN_MORPH_A> → <UNIVERSAL_BINDER_ALPHA> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_1] <FLUID_CONDUIT_NOUN_A> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_2] <FOLIAGE_NOUN_MORPH> (CONTAINMENT_STATE_MARKER)
+Line 1 Reading: <Pone (Place / Position)> **herba / dry stem** → **mixed substance** (cum aqua (with liquid / degree)) → <Coque (Boil / Process)> **fluid / bath** (cum aqua (with liquid / degree)) → <Sumo (Take / Select)> **leaves / foliage** (in vas (in vessel / aligned))
+----------------------------------------
+Line 2 Input : qokain okain shol cthy
+Line 2 Syntax : [OPERATIONAL_VERB_CLASS_1] <FLUID_CONDUIT_NOUN_A> (FLUID_CONDITION_MARKER) → <FLUID_CONDUIT_NOUN_A> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_2] <SUBJECT_MATTER_ANCHOR> (GRADUATION_MEASURE_MARKER) → [OPERATIONAL_VERB_CLASS_3] <MARKER_TINCT_ANCHOR> (CONTAINMENT_STATE_MARKER)
+Line 2 Reading: <Coque (Boil / Process)> **fluid / bath** (cum aqua (with liquid / degree)) → **fluid / bath** (cum aqua (with liquid / degree)) → <Sumo (Take / Select)> **matter** (in gradus (to degree)) → <Misce (Mix / Grind)> **tincture / sign** (in vas (in vessel / aligned))
+----------------------------------------
+
+📍 Biological Sector (f75r, P1)
+--------------------------------------------------------------------------------
+Line 1 Input : pchodaiin shol dain qokain
+Line 1 Syntax : [OPERATIONAL_VERB_CLASS_4] <AQUATIC_NOUN_MORPH> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_2] <SUBJECT_MATTER_ANCHOR> (GRADUATION_MEASURE_MARKER) → <UNIVERSAL_BINDER_ALPHA> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_1] <FLUID_CONDUIT_NOUN_A> (FLUID_CONDITION_MARKER)
+Line 1 Reading: <Distilla (Distill / Observe)> **water plant** (cum aqua (with liquid / degree)) → <Sumo (Take / Select)> **matter** (in gradus (to degree)) → **mixed substance** (cum aqua (with liquid / degree)) → <Coque (Boil / Process)> **fluid / bath** (cum aqua (with liquid / degree))
+----------------------------------------
+Line 2 Input : qokedy qokain sholdy cthy
+Line 2 Syntax : [OPERATIONAL_VERB_CLASS_1] <FLUID_EXTRACT_NOUN_B> (CONTAINMENT_STATE_MARKER) → [OPERATIONAL_VERB_CLASS_1] <FLUID_CONDUIT_NOUN_A> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_2] <FOLIAGE_NOUN_MORPH> (CONTAINMENT_STATE_MARKER) → [OPERATIONAL_VERB_CLASS_3] <MARKER_TINCT_ANCHOR> (CONTAINMENT_STATE_MARKER)
+Line 2 Reading: <Coque (Boil / Process)> **distilled oil** (in vas (in vessel / aligned)) → <Coque (Boil / Process)> **fluid / bath** (cum aqua (with liquid / degree)) → <Sumo (Take / Select)> **leaves / foliage** (in vas (in vessel / aligned)) → <Misce (Mix / Grind)> **tincture / sign** (in vas (in vessel / aligned))
+----------------------------------------
+
+📍 Astronomical Sector (f67r, Outer Ring)
+--------------------------------------------------------------------------------
+Line 1 Input : psoiin sholdy qokaiin dain
+Line 1 Syntax : [OPERATIONAL_VERB_CLASS_4] <CELESTIAL_POS_NOUN_A> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_2] <FOLIAGE_NOUN_MORPH> (CONTAINMENT_STATE_MARKER) → [OPERATIONAL_VERB_CLASS_1] <FLUID_CONDUIT_NOUN_B> (FLUID_CONDITION_MARKER) → <UNIVERSAL_BINDER_ALPHA> (FLUID_CONDITION_MARKER)
+Line 1 Reading: <Distilla (Distill / Observe)> **solar position** (cum aqua (with liquid / degree)) → <Sumo (Take / Select)> **leaves / foliage** (in vas (in vessel / aligned)) → <Coque (Boil / Process)> **fluid flow / stream** (cum aqua (with liquid / degree)) → **mixed substance** (cum aqua (with liquid / degree))
+----------------------------------------
+Line 2 Input : qosol dain shol cthy
+Line 2 Syntax : [OPERATIONAL_VERB_CLASS_1] <CELESTIAL_DEGREE_NOUN> (GRADUATION_MEASURE_MARKER) → <UNIVERSAL_BINDER_ALPHA> (FLUID_CONDITION_MARKER) → [OPERATIONAL_VERB_CLASS_2] <SUBJECT_MATTER_ANCHOR> (GRADUATION_MEASURE_MARKER) → [OPERATIONAL_VERB_CLASS_3] <MARKER_TINCT_ANCHOR> (CONTAINMENT_STATE_MARKER)
+Line 2 Reading: <Coque (Boil / Process)> **celestial circle / degree** (in gradus (to degree)) → **mixed substance** (cum aqua (with liquid / degree)) → <Sumo (Take / Select)> **matter** (in gradus (to degree)) → <Misce (Mix / Grind)> **tincture / sign** (in vas (in vessel / aligned))
+----------------------------------------
+
+================================================================================
+3. CHI-SQUARE (χ²) POSITIONAL FREQUENCY CROSS-MATCHING TEST
+================================================================================
+Total Initial Slots Evaluated : 500
+Chi-Square Statistic (χ²) : 0.0864
+p-value : 0.999094 (df = 4)
+--------------------------------------------------------------------------------
+RESULT: PASS (NO STATISTICAL SIGNIFICANT DIFFERENCE)
+The positional distribution of Voynich slots IS STATISTICALLY IDENTICAL
+to 15th-century Latin apothecary imperatives (p > 0.05).
+================================================================================

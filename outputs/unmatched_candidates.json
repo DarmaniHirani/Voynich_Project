@@ -1,0 +1,134 @@
+[
+    {
+        "token": "DEGREE",
+        "frequency": 2
+    },
+    {
+        "token": "SEGMENT",
+        "frequency": 1
+    },
+    {
+        "token": "HERBAL",
+        "frequency": 1
+    },
+    {
+        "token": "XAGREE",
+        "frequency": 1
+    },
+    {
+        "token": "ANALYSIS",
+        "frequency": 1
+    },
+    {
+        "token": "TRACKING",
+        "frequency": 1
+    },
+    {
+        "token": "ROOT",
+        "frequency": 1
+    },
+    {
+        "token": "STRUCTURE",
+        "frequency": 1
+    },
+    {
+        "token": "XISTILLATION",
+        "frequency": 1
+    },
+    {
+        "token": "PROCESS",
+        "frequency": 1
+    },
+    {
+        "token": "ACTIVE",
+        "frequency": 1
+    },
+    {
+        "token": "SOLVENT",
+        "frequency": 1
+    },
+    {
+        "token": "COMPOUNDS",
+        "frequency": 1
+    },
+    {
+        "token": "PLANT",
+        "frequency": 1
+    },
+    {
+        "token": "WATER",
+        "frequency": 1
+    },
+    {
+        "token": "DISTILLED",
+        "frequency": 1
+    },
+    {
+        "token": "OIL",
+        "frequency": 1
+    },
+    {
+        "token": "PATHWAY",
+        "frequency": 1
+    },
+    {
+        "token": "CELESTIAL",
+        "frequency": 1
+    },
+    {
+        "token": "CIRCLE",
+        "frequency": 1
+    },
+    {
+        "token": "THERMAL",
+        "frequency": 1
+    },
+    {
+        "token": "APPLICATION",
+        "frequency": 1
+    },
+    {
+        "token": "INDEX",
+        "frequency": 1
+    },
+    {
+        "token": "SUBSTANCE",
+        "frequency": 1
+    },
+    {
+        "token": "MATTER",
+        "frequency": 1
+    },
+    {
+        "token": "SIGN",
+        "frequency": 1
+    },
+    {
+        "token": "VESSEL",
+        "frequency": 1
+    },
+    {
+        "token": "STATE",
+        "frequency": 1
+    },
+    {
+        "token": "STRUCTURAL",
+        "frequency": 1
+    },
+    {
+        "token": "BOILING",
+        "frequency": 1
+    },
+    {
+        "token": "REACTION",
+        "frequency": 1
+    },
+    {
+        "token": "PHASE",
+        "frequency": 1
+    },
+    {
+        "token": "BOTANICALNOUNMORPH",
+        "frequency": 1
+    }
+]

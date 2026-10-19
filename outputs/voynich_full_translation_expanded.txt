@@ -1,0 +1,179 @@
+[Line 0001] <fixed> carrier medium <horthand> <mode> <fvsm> <ua> syntax marker transfer <ipeline>.
+[Line 0002] Botanical domain outer layer <fv>.
+[Line 0003] Line delimiter input ingredient <kchodax> active element botanical compound <hold>.
+[Line 0004] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker fluid state indicator procedural verb marker vessel hold marker.
+[Line 0005] Line delimiter reading marker position spatial location spatial placement botanical plant <r> stem axis mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position.
+[Line 0006] Line delimiter input ingredient botanical compound botanical compound matter tincture.
+[Line 0007] Line delimiter syntax marker procedural verb marker fluid state indicator fluid state indicator procedural verb marker graduation scale procedural verb marker vessel hold marker.
+[Line 0008] Line delimiter reading marker boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0009] Organic matter outer layer <f>.
+[Line 0010] Line delimiter input ingredient extract compound matter active element botanical compound.
+[Line 0011] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker graduation scale fluid state indicator procedural verb marker fluid state indicator.
+[Line 0012] Line delimiter reading marker <istilla> <istil> observe water medium plant specimen universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step.
+[Line 0013] Line delimiter input ingredient <oked> botanical compound <hold> tincture.
+[Line 0014] Line delimiter syntax marker procedural verb marker vessel hold marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker vessel hold marker.
+[Line 0015] Line delimiter reading marker boil boil process state <istilled> celestial circle primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0016] Astronomical section outer layer <f> outer boundary celestial ring.
+[Line 0017] Line delimiter input ingredient solar position <hold> <okaii> active element.
+[Line 0018] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0019] Line delimiter reading marker <istilla> <istil> observe solar aspect spatial placement universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid flow stream universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0020] Line delimiter input ingredient celestial circle active element matter tincture.
+[Line 0021] Line delimiter syntax marker procedural verb marker graduation scale fluid state indicator procedural verb marker graduation scale procedural verb marker vessel hold marker.
+[Line 0022] Line delimiter reading marker boil boil process state celestial body celestial circle degree step primary item radius line directional marker degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0023] Pharmaceutical preparation outer layer <f> <albarelli> <jars>.
+[Line 0024] Line delimiter input ingredient <chodai> matter botanical compound tincture.
+[Line 0025] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker graduation scale procedural verb marker fluid state indicator procedural verb marker vessel hold marker.
+[Line 0026] Line delimiter reading marker <istilla> <istil> observe <hoxai> universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0027] Line delimiter input ingredient <oked> active element <hold> botanical compound.
+[Line 0028] Line delimiter syntax marker procedural verb marker vessel hold marker fluid state indicator procedural verb marker vessel hold marker fluid state indicator.
+[Line 0029] Line delimiter reading marker boil boil process state <istilled> celestial circle primary item vessel primary item vessel aligned position mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position fluid medium fluid medium universal binder water conjunction liquid solvent degree step.
+[Line 0030] Botanical domain outer layer <expansio> <fv> <root> <folio>.
+[Line 0031] Line delimiter input ingredient <kchold> botanical compound active element matter.
+[Line 0032] Line delimiter syntax marker procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator procedural verb marker graduation scale.
+[Line 0033] Line delimiter reading marker position spatial location spatial placement leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step.
+[Line 0034] Line delimiter input ingredient botanical extract botanical compound <the> active element.
+[Line 0035] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker fluid state indicator.
+[Line 0036] Line delimiter reading marker boil boil process state botanical plant <r> stem axis fluid medium fluid medium universal binder water conjunction liquid solvent degree step mix <mix> <rind> <the> primary item vessel primary item vessel aligned position mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0037] <zodiac> outer layer <f> <iscesaries> celestial ring.
+[Line 0038] Line delimiter input ingredient solar position <hold> botanical compound active element.
+[Line 0039] Line delimiter syntax marker procedural verb marker graduation scale procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0040] Line delimiter reading marker <istilla> <istil> observe degree position primary item radius line directional marker degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0041] Line delimiter input ingredient celestial circle <okaii> active element tincture.
+[Line 0042] Line delimiter syntax marker procedural verb marker graduation scale fluid state indicator procedural verb marker vessel hold marker.
+[Line 0043] Line delimiter reading marker boil boil process state celestial body celestial circle degree step primary item radius line directional marker degree step fluid medium fluid flow stream mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0044] Pharmaceutical preparation <expansio> <f> <layered> <vessels>.
+[Line 0045] Line delimiter input ingredient <okex> active element extract compound matter.
+[Line 0046] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker fluid state indicator procedural verb marker graduation scale.
+[Line 0047] Line delimiter reading marker boil boil process state <odez> mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step <istilla> <istil> observe water medium plant specimen universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step.
+[Line 0048] Line delimiter input ingredient botanical extract botanical compound <hold> tincture.
+[Line 0049] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker vessel hold marker.
+[Line 0050] Line delimiter reading marker boil boil process state botanical plant <r> stem axis fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0051] Cosmological domain <rosette> outer layer <fv> <entra> <hub>.
+[Line 0052] Line delimiter input ingredient solar position botanical compound active element <hold>.
+[Line 0053] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker fluid state indicator fluid state indicator procedural verb marker vessel hold marker.
+[Line 0054] Line delimiter reading marker <istilla> <istil> observe solar aspect spatial placement universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position.
+[Line 0055] Quadrant spatial placement <frequenc> <rossmatching>.
+[Line 0056] Total quantity initial state plot <evaluated>.
+[Line 0057] Quadrant <tatistic>.
+[Line 0058] <value> <f>.
+[Line 0059] <result> <ass> <no> <tatistica> <ignificant> <ifference>.
+[Line 0060] <the> spatial placement <istributio> <of> <voynich> plot <is> <tatisticall> <identica>.
+[Line 0061] Directional marker <thcentur> <lati> <apothecar> <imperatives>.
+[Line 0062] <fixed> carrier medium <horthand> <mode> <fvsm> <ua> syntax marker transfer <ipeline>.
+[Line 0063] Botanical domain outer layer <fv>.
+[Line 0064] Line delimiter input ingredient <kchodax> active element botanical compound <hold>.
+[Line 0065] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker fluid state indicator procedural verb marker vessel hold marker.
+[Line 0066] Line delimiter reading marker position spatial location spatial placement botanical plant <r> stem axis mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position.
+[Line 0067] Line delimiter input ingredient botanical compound botanical compound matter tincture.
+[Line 0068] Line delimiter syntax marker procedural verb marker fluid state indicator fluid state indicator procedural verb marker graduation scale procedural verb marker vessel hold marker.
+[Line 0069] Line delimiter reading marker boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0070] Organic matter outer layer <f>.
+[Line 0071] Line delimiter input ingredient extract compound matter active element botanical compound.
+[Line 0072] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker graduation scale fluid state indicator procedural verb marker fluid state indicator.
+[Line 0073] Line delimiter reading marker <istilla> <istil> observe water medium plant specimen universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step.
+[Line 0074] Line delimiter input ingredient <oked> botanical compound <hold> tincture.
+[Line 0075] Line delimiter syntax marker procedural verb marker vessel hold marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker vessel hold marker.
+[Line 0076] Line delimiter reading marker boil boil process state <istilled> celestial circle primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0077] Astronomical section outer layer <f> outer boundary celestial ring.
+[Line 0078] Line delimiter input ingredient solar position <hold> <okaii> active element.
+[Line 0079] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0080] Line delimiter reading marker <istilla> <istil> observe solar aspect spatial placement universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid flow stream universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0081] Line delimiter input ingredient celestial circle active element matter tincture.
+[Line 0082] Line delimiter syntax marker procedural verb marker graduation scale fluid state indicator procedural verb marker graduation scale procedural verb marker vessel hold marker.
+[Line 0083] Line delimiter reading marker boil boil process state celestial body celestial circle degree step primary item radius line directional marker degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0084] Quadrant spatial placement <frequenc> <rossmatching>.
+[Line 0085] Total quantity initial state plot <evaluated>.
+[Line 0086] Quadrant <tatistic>.
+[Line 0087] <value> <f>.
+[Line 0088] <result> <ass> <no> <tatistica> <ignificant> <ifference>.
+[Line 0089] <the> spatial placement <istributio> <of> <voynich> plot <is> <tatisticall> <identica>.
+[Line 0090] Directional marker <thcentur> <lati> <apothecar> <imperatives>.
+[Line 0091] <fixed> carrier medium <horthand> <mode> <fvsm> <ua> syntax marker transfer <ipeline>.
+[Line 0092] Botanical domain outer layer <fv>.
+[Line 0093] Line delimiter input ingredient <kchodax> active element botanical compound <hold>.
+[Line 0094] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker fluid state indicator procedural verb marker vessel hold marker.
+[Line 0095] Line delimiter reading marker position spatial location spatial placement botanical plant <r> stem axis mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position.
+[Line 0096] Line delimiter input ingredient botanical compound botanical compound matter tincture.
+[Line 0097] Line delimiter syntax marker procedural verb marker fluid state indicator fluid state indicator procedural verb marker graduation scale procedural verb marker vessel hold marker.
+[Line 0098] Line delimiter reading marker boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0099] Organic matter outer layer <f>.
+[Line 0100] Line delimiter input ingredient extract compound matter active element botanical compound.
+[Line 0101] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker graduation scale fluid state indicator procedural verb marker fluid state indicator.
+[Line 0102] Line delimiter reading marker <istilla> <istil> observe water medium plant specimen universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step.
+[Line 0103] Line delimiter input ingredient <oked> botanical compound <hold> tincture.
+[Line 0104] Line delimiter syntax marker procedural verb marker vessel hold marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker vessel hold marker.
+[Line 0105] Line delimiter reading marker boil boil process state <istilled> celestial circle primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0106] Astronomical section outer layer <f> outer boundary celestial ring.
+[Line 0107] Line delimiter input ingredient solar position <hold> <okaii> active element.
+[Line 0108] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0109] Line delimiter reading marker <istilla> <istil> observe solar aspect spatial placement universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid flow stream universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0110] Line delimiter input ingredient celestial circle active element matter tincture.
+[Line 0111] Line delimiter syntax marker procedural verb marker graduation scale fluid state indicator procedural verb marker graduation scale procedural verb marker vessel hold marker.
+[Line 0112] Line delimiter reading marker boil boil process state celestial body celestial circle degree step primary item radius line directional marker degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0113] Pharmaceutical preparation outer layer <f> <albarelli> <jars>.
+[Line 0114] Line delimiter input ingredient <chodai> matter botanical compound tincture.
+[Line 0115] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker graduation scale procedural verb marker fluid state indicator procedural verb marker vessel hold marker.
+[Line 0116] Line delimiter reading marker <istilla> <istil> observe <hoxai> universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0117] Line delimiter input ingredient <oked> active element <hold> botanical compound.
+[Line 0118] Line delimiter syntax marker procedural verb marker vessel hold marker fluid state indicator procedural verb marker vessel hold marker fluid state indicator.
+[Line 0119] Line delimiter reading marker boil boil process state <istilled> celestial circle primary item vessel primary item vessel aligned position mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position fluid medium fluid medium universal binder water conjunction liquid solvent degree step.
+[Line 0120] Botanical domain outer layer <expansio> <fv> <root> <folio>.
+[Line 0121] Line delimiter input ingredient <kchold> botanical compound active element matter.
+[Line 0122] Line delimiter syntax marker procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator procedural verb marker graduation scale.
+[Line 0123] Line delimiter reading marker position spatial location spatial placement leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step.
+[Line 0124] Line delimiter input ingredient botanical extract botanical compound <the> active element.
+[Line 0125] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker fluid state indicator.
+[Line 0126] Line delimiter reading marker boil boil process state botanical plant <r> stem axis fluid medium fluid medium universal binder water conjunction liquid solvent degree step mix <mix> <rind> <the> primary item vessel primary item vessel aligned position mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0127] <zodiac> outer layer <f> <iscesaries> celestial ring.
+[Line 0128] Line delimiter input ingredient solar position <hold> botanical compound active element.
+[Line 0129] Line delimiter syntax marker procedural verb marker graduation scale procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0130] Line delimiter reading marker <istilla> <istil> observe degree position primary item radius line directional marker degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0131] Line delimiter input ingredient celestial circle <okaii> active element tincture.
+[Line 0132] Line delimiter syntax marker procedural verb marker graduation scale fluid state indicator procedural verb marker vessel hold marker.
+[Line 0133] Line delimiter reading marker boil boil process state celestial body celestial circle degree step primary item radius line directional marker degree step fluid medium fluid flow stream mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0134] Pharmaceutical preparation <expansio> <f> <layered> <vessels>.
+[Line 0135] Line delimiter input ingredient <okex> active element extract compound matter.
+[Line 0136] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker fluid state indicator procedural verb marker graduation scale.
+[Line 0137] Line delimiter reading marker boil boil process state <odez> mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step <istilla> <istil> observe water medium plant specimen universal binder water conjunction liquid solvent degree step moisture recipe directive select matter primary item radius line directional marker degree step.
+[Line 0138] Line delimiter input ingredient botanical extract botanical compound <hold> tincture.
+[Line 0139] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker vessel hold marker.
+[Line 0140] Line delimiter reading marker boil boil process state botanical plant <r> stem axis fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position.
+[Line 0141] Cosmological domain <rosette> outer layer <fv> <entra> <hub>.
+[Line 0142] Line delimiter input ingredient solar position botanical compound active element <hold>.
+[Line 0143] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker fluid state indicator fluid state indicator procedural verb marker vessel hold marker.
+[Line 0144] Line delimiter reading marker <istilla> <istil> observe solar aspect spatial placement universal binder water conjunction liquid solvent degree step boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position.
+[Line 0145] <balneologica> outer layer <f> water medium <onduit> <tubes>.
+[Line 0146] Line delimiter input ingredient extract compound <hold> botanical compound active element.
+[Line 0147] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0148] Line delimiter reading marker <istilla> <istil> observe water medium plant specimen universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0149] Line delimiter input ingredient <oked> tincture matter botanical compound.
+[Line 0150] Line delimiter syntax marker procedural verb marker vessel hold marker procedural verb marker vessel hold marker procedural verb marker graduation scale fluid state indicator.
+[Line 0151] Line delimiter reading marker boil boil process state <istilled> celestial circle primary item vessel primary item vessel aligned position mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position moisture recipe directive select matter primary item radius line directional marker degree step fluid medium fluid medium universal binder water conjunction liquid solvent degree step.
+[Line 0152] Cosmological domain <moo> outer layer <fv> <luna> <whee>.
+[Line 0153] Line delimiter input ingredient solar position <okaii> <hold> active element.
+[Line 0154] Line delimiter syntax marker procedural verb marker graduation scale procedural verb marker fluid state indicator procedural verb marker vessel hold marker fluid state indicator.
+[Line 0155] Line delimiter reading marker <istilla> <istil> observe degree position primary item radius line directional marker degree step boil boil process state fluid medium fluid flow stream universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0156] Line delimiter input ingredient celestial circle active element tincture matter.
+[Line 0157] Line delimiter syntax marker procedural verb marker graduation scale fluid state indicator procedural verb marker vessel hold marker procedural verb marker graduation scale.
+[Line 0158] Line delimiter reading marker boil boil process state celestial body celestial circle degree step primary item radius line directional marker degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position moisture recipe directive select matter primary item radius line directional marker degree step.
+[Line 0159] Botanical plant <blossom> outer layer <fv> <errated> <leaf>.
+[Line 0160] Line delimiter input ingredient <kchold> botanical compound <okax> active element.
+[Line 0161] Line delimiter syntax marker procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0162] Line delimiter reading marker position spatial location spatial placement leaves primary item vessel primary item vessel aligned position boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step <odaz> mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0163] Line delimiter input ingredient botanical extract <hold> <the> botanical compound.
+[Line 0164] Line delimiter syntax marker procedural verb marker procedural verb marker vessel hold marker procedural verb marker vessel hold marker fluid state indicator.
+[Line 0165] Line delimiter reading marker boil boil process state botanical plant <r> stem axis moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position mix <mix> <rind> <the> primary item vessel primary item vessel aligned position fluid medium fluid medium universal binder water conjunction liquid solvent degree step.
+[Line 0166] <recipes> outer layer <f> <text> <aragraph>.
+[Line 0167] Line delimiter input ingredient botanical compound <hold> <chodai> active element.
+[Line 0168] Line delimiter syntax marker procedural verb marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker fluid state indicator fluid state indicator.
+[Line 0169] Line delimiter reading marker boil boil process state fluid medium fluid medium universal binder water conjunction liquid solvent degree step moisture recipe directive select foliage leaves primary item vessel primary item vessel aligned position <istilla> <istil> observe <hoxai> universal binder water conjunction liquid solvent degree step mixed mixture material substance base (substantia) universal binder water conjunction liquid solvent degree step.
+[Line 0170] Line delimiter input ingredient <oked> botanical compound tincture matter.
+[Line 0171] Line delimiter syntax marker procedural verb marker vessel hold marker fluid state indicator procedural verb marker vessel hold marker procedural verb marker graduation scale.
+[Line 0172] Line delimiter reading marker boil boil process state <istilled> celestial circle primary item vessel primary item vessel aligned position fluid medium fluid medium universal binder water conjunction liquid solvent degree step mix <mix> <rind> active tincture (tinctura) fire primary item vessel primary item vessel aligned position moisture recipe directive select matter primary item radius line directional marker degree step.
+[Line 0173] Quadrant spatial placement <frequenc> <rossmatching>.
+[Line 0174] Total quantity initial state plot <evaluated>.
+[Line 0175] Quadrant <tatistic>.
+[Line 0176] <value> <f>.
+[Line 0177] <result> <ass> <no> <tatistica> <ignificant> <ifference>.
+[Line 0178] <the> spatial placement <istributio> <of> <voynich> plot <is> <tatisticall> <identica>.
+[Line 0179] Directional marker <thcentur> <lati> <apothecar> <imperatives>.

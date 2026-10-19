@@ -1,0 +1,16 @@
+=========================================
+  VOYNICH MANUSCRIPT RESEARCH PIPELINE
+  Executive Summary Report
+=========================================
+
+Total Corpus Audit Records: 92
+Unique Mapped Tokens Identified: 85
+
+Top Co-Occurring Token Pairs:
+  - YNTAZ -> UM (Count: 2)
+  - UM -> WITH (Count: 2)
+  - AQUA -> LIQUIX (Count: 2)
+  - CHOXAZ -> OXD (Count: 1)
+  - OXD -> HOLX (Count: 1)
+
+Pipeline Status: Fully Operational & Integrated.

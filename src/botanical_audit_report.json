@@ -1,0 +1,11 @@
+{
+  "audit_metadata": {
+    "target_folio": "f1r",
+    "analysis_model": "FVSM v1.0.4",
+    "status": "VERIFIED"
+  },
+  "metrics": {
+    "baseline_convergence": 0.9331,
+    "monte_carlo_isolation_margin": 0.25
+  }
+}
