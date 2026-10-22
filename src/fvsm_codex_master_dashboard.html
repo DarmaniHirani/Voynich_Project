@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FVSM Master Codex Visualization Dashboard</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 40px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 15px; }
+        .folio-card { background: #1e293b; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); border: 1px solid #334155; }
+        .folio-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 15px; }
+        .folio-title { font-size: 1.25rem; font-weight: bold; color: #e2e8f0; }
+        .badge { background: #0284c7; color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; }
+        .row-item { margin: 8px 0; font-family: monospace; background: #0f172a; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; }
+        .themes { margin-top: 15px; font-size: 0.9rem; color: #94a3b8; display: flex; gap: 20px; }
+        .theme-tag { background: #334155; padding: 4px 8px; border-radius: 4px; color: #e2e8f0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔮 FVSM Master Codex Reconstruction Matrix</h1>
+        <p>Automated 14th-Century Latin Paleographic Shorthand Decipherment Report</p>
+
+        <div class="folio-card">
+            <div class="folio-header">
+                <div class="folio-title">📖 Folio Target: FOLIO_1R</div>
+                <div class="badge">Confidence: 93.8%</div>
+            </div>
+            <div class="rows-container">
+                <div class="row-item"><span>Row 1: per um cum non</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
+                <div class="row-item"><span>Row 2: pro quam aut sed</span><span style="color: #38bdf8;">100.0% Conf.</span></div>
+            </div>
+            <div class="themes">
+                <span class="theme-tag">Operational: 2</span>
+                <span class="theme-tag">Logical: 3</span>
+                <span class="theme-tag">Substance: 3</span>
+            </div>
+        </div>
+
+        <div class="folio-card">
+            <div class="folio-header">
+                <div class="folio-title">📖 Folio Target: FOLIO_1V</div>
+                <div class="badge">Confidence: 85.4%</div>
+            </div>
+            <div class="rows-container">
+                <div class="row-item"><span>Row 1: et per que us</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
+                <div class="row-item"><span>Row 2: est ser quam</span><span style="color: #38bdf8;">83.3% Conf.</span></div>
+            </div>
+            <div class="themes">
+                <span class="theme-tag">Operational: 2</span>
+                <span class="theme-tag">Logical: 2</span>
+                <span class="theme-tag">Substance: 3</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
