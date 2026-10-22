@@ -1,6 +1,6 @@
 """
-Voynich_Project: Full Codex Batch Decipherment Engine
-Processes multiple chronological folio text matrices, applies the expanded 
+Voynich_Project: Full Codex Batch Decipherment Engine (Expanded Lexicon)
+Processes multiple chronological folio text matrices, applies an expanded 
 14th-century Latin shorthand lexicon, and generates a unified codex transcript.
 """
 
@@ -28,7 +28,7 @@ class VoynichCodexBatchDecipherer:
         """
         codex_transcripts = {}
         
-        print("📚 Initiating Full-Codex Batch Transcription Run...")
+        print("📚 Initiating Full-Codex Batch Transcription Run (Expanded Lexicon)...")
         for folio_id, text_rows in codex_folios.items():
             print(f"   -> Processing {folio_id} ({len(text_rows)} rows detected)...")
             folio_output = []
@@ -54,18 +54,19 @@ if __name__ == "__main__":
         "omega_form": {"expansion": "us"},
         "cross_et": {"expansion": "et"},
         "est_sigla": {"expansion": "est"},
-        "ser_loop": {"expansion": "ser"}
+        "ser_loop": {"expansion": "ser"},
+        # Newly added medieval shorthand tokens:
+        "con_sigla": {"expansion": "cum"},
+        "non_tilde": {"expansion": "non"},
+        "aut_sigla": {"expansion": "aut"},
+        "sed_sigla": {"expansion": "sed"}
     }
     
-    # Simulating multi-folio extraction streams across the manuscript
+    # Simulating multi-folio extraction streams with new tokens
     mock_codex_data = {
         "folio_1r": [
-            ["p_cross", "macron_suspension", "cross_et", "q_tittle", "omega_form"],
-            ["p_curl", "q_barmacron", "est_sigla", "ser_loop"]
-        ],
-        "folio_1v": [
-            ["cross_et", "p_cross", "q_tittle", "macron_suspension"],
-            ["p_curl", "omega_form", "est_sigla"]
+            ["p_cross", "macron_suspension", "con_sigla", "non_tilde"],
+            ["p_curl", "q_barmacron", "aut_sigla", "sed_sigla"]
         ]
     }
     
