@@ -1,10 +1,11 @@
 """
-Voynich_Project: Master FVSM Codex Engine (Ingestion, Scoring & HTML Export)
-Performs multi-folio batch transcription, 14th-century Latin shorthand lexicon mapping,
-confidence/ambiguity scoring, thematic semantic profiling, and HTML dashboard export.
+Voynich_Project: Master FVSM Codex Engine with Suffix Expansion & N-Gram Analyzer
+Performs paleographic abbreviation expansion, confidence scoring, thematic profiling,
+bigram/trigram frequency analysis, and HTML dashboard export.
 """
 
 from typing import List, Dict, Any
+from collections import Counter
 import html
 
 class MasterVoynichCodexEngine:
@@ -17,7 +18,7 @@ class MasterVoynichCodexEngine:
         }
 
     def decipher_token_stream(self, chronological_tokens: List[str]) -> Dict[str, Any]:
-        """Translates tokens, tracks ambiguity, and calculates row confidence scores."""
+        """Translates tokens, handles suffix extensions, and calculates confidence."""
         translated_words = []
         resolved_count = 0
         total_tokens = len(chronological_tokens)
@@ -26,10 +27,15 @@ class MasterVoynichCodexEngine:
             if token in self.lexicon:
                 entry = self.lexicon[token]
                 expansion = entry["expansion"]
+                
+                # Check for medieval suffix expansion rules (e.g., nasal bars/macrons)
+                if "suffix_variants" in entry and entry.get("apply_suffix"):
+                    expansion += entry["suffix_variants"][0]  # Apply primary probable suffix
+                    
                 translated_words.append(expansion)
-                # Check if ambiguity flag exists
+                
                 if entry.get("ambiguous", False):
-                    resolved_count += 0.5  # Partial weight for ambiguous variants
+                    resolved_count += 0.5
                 else:
                     resolved_count += 1.0
             else:
@@ -42,20 +48,31 @@ class MasterVoynichCodexEngine:
             "confidence": round(confidence_score, 1)
         }
 
+    def analyze_ngram_frequencies(self, all_words: List[str]) -> Dict[str, List[tuple]]:
+        """Calculates bi-gram and tri-gram frequencies across the translated corpus."""
+        bigrams = [f"{all_words[i]} {all_words[i+1]}" for i in range(len(all_words) - 1)]
+        trigrams = [f"{all_words[i]} {all_words[i+1]} {all_words[i+2]}" for i in range(len(all_words) - 2)]
+        
+        return {
+            "top_bigrams": Counter(bigrams).most_common(3),
+            "top_trigrams": Counter(trigrams).most_common(3)
+        }
+
     def analyze_folio_themes(self, translated_words: List[str]) -> Dict[str, int]:
         """Tallies thematic category matches for semantic profiling."""
         tag_counts = {"operational": 0, "logical_conditional": 0, "substance_association": 0}
         for word in translated_words:
             for category, keywords in self.semantic_categories.items():
-                if word in keywords:
+                if word in keywords or any(word.startswith(kw) for kw in keywords):
                     tag_counts[category] += 1
         return tag_counts
 
     def process_codex(self, codex_folios: Dict[str, List[List[str]]]) -> Dict[str, Any]:
-        """Processes all codex folios, compiling transcripts, confidence, and themes."""
+        """Processes all codex folios, compiling transcripts, confidence, and n-grams."""
         codex_report = {}
+        global_word_stream = []
         
-        print("📚 Initiating Master FVSM Codex Pipeline (Ingestion, Scoring & Export)...")
+        print("📚 Initiating Advanced FVSM Codex Pipeline (Suffixes & N-Grams)...")
         for folio_id, text_rows in codex_folios.items():
             print(f"   -> Processing {folio_id} ({len(text_rows)} rows detected)...")
             folio_output = []
@@ -70,6 +87,7 @@ class MasterVoynichCodexEngine:
                     "confidence": result["confidence"]
                 })
                 all_folio_words.extend(result["words"])
+                global_word_stream.extend(result["words"])
                 total_confidence += result["confidence"]
                 
             avg_confidence = round(total_confidence / len(text_rows), 1) if text_rows else 0.0
@@ -81,20 +99,27 @@ class MasterVoynichCodexEngine:
                 "themes": themes
             }
             
-        print("✅ Master FVSM Pipeline Execution Completed Successfully.")
+        # Global Corpus N-Gram Analysis
+        corpus_ngrams = self.analyze_ngram_frequencies(global_word_stream)
+        codex_report["corpus_analytics"] = corpus_ngrams
+            
+        print("✅ Advanced FVSM Pipeline Execution Completed Successfully.")
         return codex_report
 
     def export_html_dashboard(self, master_report: Dict[str, Any], filename: str = "fvsm_codex_master_dashboard.html"):
-        """Compiles processed analytics into a fully styled, interactive HTML dashboard."""
+        """Compiles analytics, n-grams, and transcripts into an interactive HTML dashboard."""
+        corpus_data = master_report.pop("corpus_analytics", {"top_bigrams": [], "top_trigrams": []})
+        
         html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FVSM Master Codex Visualization Dashboard</title>
+    <title>FVSM Advanced Codex Visualization Dashboard</title>
     <style>
         body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 40px; }}
         .container {{ max-width: 1000px; margin: 0 auto; }}
         h1 {{ color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 15px; }}
+        .analytics-box {{ background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; margin-bottom: 25px; }}
         .folio-card {{ background: #1e293b; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); border: 1px solid #334155; }}
         .folio-header {{ display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 15px; }}
         .folio-title {{ font-size: 1.25rem; font-weight: bold; color: #e2e8f0; }}
@@ -102,12 +127,24 @@ class MasterVoynichCodexEngine:
         .row-item {{ margin: 8px 0; font-family: monospace; background: #0f172a; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; }}
         .themes {{ margin-top: 15px; font-size: 0.9rem; color: #94a3b8; display: flex; gap: 20px; }}
         .theme-tag {{ background: #334155; padding: 4px 8px; border-radius: 4px; color: #e2e8f0; }}
+        .ngram-list {{ display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px; }}
+        .ngram-pill {{ background: #0284c7; padding: 6px 12px; border-radius: 6px; font-family: monospace; font-size: 0.9rem; }}
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🔮 FVSM Master Codex Reconstruction Matrix</h1>
-        <p>Automated 14th-Century Latin Paleographic Shorthand Decipherment Report</p>
+        <h1>🔮 FVSM Advanced Codex Reconstruction & Analytics</h1>
+        <p>14th-Century Latin Shorthand with Automated Suffix Expansion & N-Gram Profiling</p>
+        
+        <div class="analytics-box">
+            <h3 style="margin-top: 0; color: #38bdf8;">📊 Corpus Syntax Frequency (Top Bi-grams)</h3>
+            <div class="ngram-list">
+"""
+        for bg, count in corpus_data["top_bigrams"]:
+            html_content += f'<div class="ngram-pill">{html.escape(bg)} ({count})</div>'
+            
+        html_content += """            </div>
+        </div>
 """
         
         for folio_id, data in master_report.items():
@@ -139,28 +176,26 @@ class MasterVoynichCodexEngine:
 """
         with open(filename, "w", encoding="utf-8") as f:
             f.write(html_content)
-        print(f"✨ Interactive HTML Dashboard Successfully Exported to: {filename}")
+        print(f"✨ Advanced Interactive HTML Dashboard Exported to: {filename}")
 
 # Master Workbench Execution
 if __name__ == "__main__":
-    # Expanded Lexicon with Ambiguity Tracking Flags
     active_lexicon = {
-        "p_cross": {"expansion": "per", "ambiguous": False},
-        "p_curl": {"expansion": "pro", "ambiguous": False},
-        "q_tittle": {"expansion": "que", "ambiguous": True},
-        "q_barmacron": {"expansion": "quam", "ambiguous": False},
-        "macron_suspension": {"expansion": "um", "ambiguous": True},
-        "omega_form": {"expansion": "us", "ambiguous": False},
-        "cross_et": {"expansion": "et", "ambiguous": False},
-        "est_sigla": {"expansion": "est", "ambiguous": False},
-        "ser_loop": {"expansion": "ser", "ambiguous": True},
-        "con_sigla": {"expansion": "cum", "ambiguous": False},
-        "non_tilde": {"expansion": "non", "ambiguous": False},
-        "aut_sigla": {"expansion": "aut", "ambiguous": False},
-        "sed_sigla": {"expansion": "sed", "ambiguous": False}
+        "p_cross": {"expansion": "per", "ambiguous": False, "apply_suffix": True, "suffix_variants": ["ibus"]},
+        "p_curl": {"expansion": "pro", "ambiguous": False, "apply_suffix": False},
+        "q_tittle": {"expansion": "que", "ambiguous": True, "apply_suffix": False},
+        "q_barmacron": {"expansion": "quam", "ambiguous": False, "apply_suffix": False},
+        "macron_suspension": {"expansion": "um", "ambiguous": True, "apply_suffix": False},
+        "omega_form": {"expansion": "us", "ambiguous": False, "apply_suffix": False},
+        "cross_et": {"expansion": "et", "ambiguous": False, "apply_suffix": False},
+        "est_sigla": {"expansion": "est", "ambiguous": False, "apply_suffix": False},
+        "ser_loop": {"expansion": "ser", "ambiguous": True, "apply_suffix": True, "suffix_variants": ["orum"]},
+        "con_sigla": {"expansion": "cum", "ambiguous": False, "apply_suffix": False},
+        "non_tilde": {"expansion": "non", "ambiguous": False, "apply_suffix": False},
+        "aut_sigla": {"expansion": "aut", "ambiguous": False, "apply_suffix": False},
+        "sed_sigla": {"expansion": "sed", "ambiguous": False, "apply_suffix": False}
     }
     
-    # Structured Codex Corpus Dataset Stream
     codex_corpus_data = {
         "folio_1r": [
             ["p_cross", "macron_suspension", "con_sigla", "non_tilde"],

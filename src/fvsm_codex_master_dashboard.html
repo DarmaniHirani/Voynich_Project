@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FVSM Master Codex Visualization Dashboard</title>
+    <title>FVSM Advanced Codex Visualization Dashboard</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 40px; }
         .container { max-width: 1000px; margin: 0 auto; }
         h1 { color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 15px; }
+        .analytics-box { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; margin-bottom: 25px; }
         .folio-card { background: #1e293b; border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); border: 1px solid #334155; }
         .folio-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #334155; padding-bottom: 10px; margin-bottom: 15px; }
         .folio-title { font-size: 1.25rem; font-weight: bold; color: #e2e8f0; }
@@ -14,12 +15,20 @@
         .row-item { margin: 8px 0; font-family: monospace; background: #0f172a; padding: 10px 14px; border-radius: 6px; display: flex; justify-content: space-between; }
         .themes { margin-top: 15px; font-size: 0.9rem; color: #94a3b8; display: flex; gap: 20px; }
         .theme-tag { background: #334155; padding: 4px 8px; border-radius: 4px; color: #e2e8f0; }
+        .ngram-list { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 10px; }
+        .ngram-pill { background: #0284c7; padding: 6px 12px; border-radius: 6px; font-family: monospace; font-size: 0.9rem; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🔮 FVSM Master Codex Reconstruction Matrix</h1>
-        <p>Automated 14th-Century Latin Paleographic Shorthand Decipherment Report</p>
+        <h1>🔮 FVSM Advanced Codex Reconstruction & Analytics</h1>
+        <p>14th-Century Latin Shorthand with Automated Suffix Expansion & N-Gram Profiling</p>
+        
+        <div class="analytics-box">
+            <h3 style="margin-top: 0; color: #38bdf8;">📊 Corpus Syntax Frequency (Top Bi-grams)</h3>
+            <div class="ngram-list">
+<div class="ngram-pill">peribus um (1)</div><div class="ngram-pill">um cum (1)</div><div class="ngram-pill">cum non (1)</div>            </div>
+        </div>
 
         <div class="folio-card">
             <div class="folio-header">
@@ -27,7 +36,7 @@
                 <div class="badge">Confidence: 93.8%</div>
             </div>
             <div class="rows-container">
-                <div class="row-item"><span>Row 1: per um cum non</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
+                <div class="row-item"><span>Row 1: peribus um cum non</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
                 <div class="row-item"><span>Row 2: pro quam aut sed</span><span style="color: #38bdf8;">100.0% Conf.</span></div>
             </div>
             <div class="themes">
@@ -43,8 +52,8 @@
                 <div class="badge">Confidence: 85.4%</div>
             </div>
             <div class="rows-container">
-                <div class="row-item"><span>Row 1: et per que us</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
-                <div class="row-item"><span>Row 2: est ser quam</span><span style="color: #38bdf8;">83.3% Conf.</span></div>
+                <div class="row-item"><span>Row 1: et peribus que us</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
+                <div class="row-item"><span>Row 2: est serorum quam</span><span style="color: #38bdf8;">83.3% Conf.</span></div>
             </div>
             <div class="themes">
                 <span class="theme-tag">Operational: 2</span>
