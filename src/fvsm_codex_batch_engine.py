@@ -1,12 +1,13 @@
 """
-Voynich_Project: Master FVSM Codex Engine with Suffix Expansion & N-Gram Analyzer
-Performs paleographic abbreviation expansion, confidence scoring, thematic profiling,
-bigram/trigram frequency analysis, and HTML dashboard export.
+Voynich_Project: Master FVSM Codex Engine with CLI, Markdown Export & Advanced Analytics
 """
 
 from typing import List, Dict, Any
 from collections import Counter
+import argparse
+import json
 import html
+import sys
 
 class MasterVoynichCodexEngine:
     def __init__(self, token_dictionary: Dict[str, Dict[str, Any]]):
@@ -18,7 +19,6 @@ class MasterVoynichCodexEngine:
         }
 
     def decipher_token_stream(self, chronological_tokens: List[str]) -> Dict[str, Any]:
-        """Translates tokens, handles suffix extensions, and calculates confidence."""
         translated_words = []
         resolved_count = 0
         total_tokens = len(chronological_tokens)
@@ -27,11 +27,8 @@ class MasterVoynichCodexEngine:
             if token in self.lexicon:
                 entry = self.lexicon[token]
                 expansion = entry["expansion"]
-                
-                # Check for medieval suffix expansion rules (e.g., nasal bars/macrons)
                 if "suffix_variants" in entry and entry.get("apply_suffix"):
-                    expansion += entry["suffix_variants"][0]  # Apply primary probable suffix
-                    
+                    expansion += entry["suffix_variants"][0]
                 translated_words.append(expansion)
                 
                 if entry.get("ambiguous", False):
@@ -49,17 +46,14 @@ class MasterVoynichCodexEngine:
         }
 
     def analyze_ngram_frequencies(self, all_words: List[str]) -> Dict[str, List[tuple]]:
-        """Calculates bi-gram and tri-gram frequencies across the translated corpus."""
         bigrams = [f"{all_words[i]} {all_words[i+1]}" for i in range(len(all_words) - 1)]
         trigrams = [f"{all_words[i]} {all_words[i+1]} {all_words[i+2]}" for i in range(len(all_words) - 2)]
-        
         return {
             "top_bigrams": Counter(bigrams).most_common(3),
             "top_trigrams": Counter(trigrams).most_common(3)
         }
 
     def analyze_folio_themes(self, translated_words: List[str]) -> Dict[str, int]:
-        """Tallies thematic category matches for semantic profiling."""
         tag_counts = {"operational": 0, "logical_conditional": 0, "substance_association": 0}
         for word in translated_words:
             for category, keywords in self.semantic_categories.items():
@@ -68,11 +62,10 @@ class MasterVoynichCodexEngine:
         return tag_counts
 
     def process_codex(self, codex_folios: Dict[str, List[List[str]]]) -> Dict[str, Any]:
-        """Processes all codex folios, compiling transcripts, confidence, and n-grams."""
         codex_report = {}
         global_word_stream = []
         
-        print("📚 Initiating Advanced FVSM Codex Pipeline (Suffixes & N-Grams)...")
+        print("📚 Initiating Master FVSM Codex Pipeline...")
         for folio_id, text_rows in codex_folios.items():
             print(f"   -> Processing {folio_id} ({len(text_rows)} rows detected)...")
             folio_output = []
@@ -99,16 +92,36 @@ class MasterVoynichCodexEngine:
                 "themes": themes
             }
             
-        # Global Corpus N-Gram Analysis
-        corpus_ngrams = self.analyze_ngram_frequencies(global_word_stream)
-        codex_report["corpus_analytics"] = corpus_ngrams
-            
-        print("✅ Advanced FVSM Pipeline Execution Completed Successfully.")
+        codex_report["corpus_analytics"] = self.analyze_ngram_frequencies(global_word_stream)
+        print("✅ Pipeline Execution Completed Successfully.")
         return codex_report
 
+    def export_markdown_log(self, master_report: Dict[str, Any], filename: str = "codex_research_log.md"):
+        """Exports a clean markdown research log for repository documentation."""
+        corpus_data = master_report.get("corpus_analytics", {"top_bigrams": [], "top_trigrams": []})
+        
+        md_content = "# 🔮 FVSM Master Codex Research Log\n\n"
+        md_content += "Automated 14th-Century Latin Shorthand Decipherment & Corpus Analytics.\n\n"
+        md_content += "## 📊 Corpus Syntax Frequency (Top Bi-grams)\n"
+        for bg, count in corpus_data["top_bigrams"]:
+            md_content += f"- `{bg}` ({count} occurrences)\n"
+        md_content += "\n---\n\n## 📖 Folio Transcripts & Profiles\n"
+        
+        for folio_id, data in master_report.items():
+            if folio_id == "corpus_analytics":
+                continue
+            md_content += f"### Target: {folio_id.upper()} (Confidence: {data['avg_confidence']}%)\n"
+            for r in data["rows"]:
+                md_content += f"- **Row {r['row']}**: `{r['text']}` *({r['confidence']}% Conf.)*\n"
+            t = data["themes"]
+            md_content += f"* **Themes** -> Operational: {t['operational']} | Logical: {t['logical_conditional']} | Substance: {t['substance_association']}\n\n"
+
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(md_content)
+        print(f"✨ Markdown Research Log Exported to: {filename}")
+
     def export_html_dashboard(self, master_report: Dict[str, Any], filename: str = "fvsm_codex_master_dashboard.html"):
-        """Compiles analytics, n-grams, and transcripts into an interactive HTML dashboard."""
-        corpus_data = master_report.pop("corpus_analytics", {"top_bigrams": [], "top_trigrams": []})
+        corpus_data = master_report.get("corpus_analytics", {"top_bigrams": [], "top_trigrams": []})
         
         html_content = f"""<!DOCTYPE html>
 <html lang="en">
@@ -148,6 +161,8 @@ class MasterVoynichCodexEngine:
 """
         
         for folio_id, data in master_report.items():
+            if folio_id == "corpus_analytics":
+                continue
             html_content += f"""
         <div class="folio-card">
             <div class="folio-header">
@@ -176,10 +191,13 @@ class MasterVoynichCodexEngine:
 """
         with open(filename, "w", encoding="utf-8") as f:
             f.write(html_content)
-        print(f"✨ Advanced Interactive HTML Dashboard Exported to: {filename}")
+        print(f"✨ Interactive HTML Dashboard Exported to: {filename}")
 
-# Master Workbench Execution
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run FVSM Codex Master Decipherment Engine")
+    parser.add_argument("--input", type=str, help="Path to external JSON transcription file", default=None)
+    args = parser.parse_args()
+
     active_lexicon = {
         "p_cross": {"expansion": "per", "ambiguous": False, "apply_suffix": True, "suffix_variants": ["ibus"]},
         "p_curl": {"expansion": "pro", "ambiguous": False, "apply_suffix": False},
@@ -196,17 +214,27 @@ if __name__ == "__main__":
         "sed_sigla": {"expansion": "sed", "ambiguous": False, "apply_suffix": False}
     }
     
-    codex_corpus_data = {
-        "folio_1r": [
-            ["p_cross", "macron_suspension", "con_sigla", "non_tilde"],
-            ["p_curl", "q_barmacron", "aut_sigla", "sed_sigla"]
-        ],
-        "folio_1v": [
-            ["cross_et", "p_cross", "q_tittle", "omega_form"],
-            ["est_sigla", "ser_loop", "q_barmacron"]
-        ]
-    }
+    if args.input:
+        try:
+            with open(args.input, "r", encoding="utf-8") as f:
+                codex_corpus_data = json.load(f)
+            print(f"📂 Loaded external dataset from: {args.input}")
+        except Exception as e:
+            print(f"❌ Error loading input file: {e}")
+            sys.exit(1)
+    else:
+        codex_corpus_data = {
+            "folio_1r": [
+                ["p_cross", "macron_suspension", "con_sigla", "non_tilde"],
+                ["p_curl", "q_barmacron", "aut_sigla", "sed_sigla"]
+            ],
+            "folio_1v": [
+                ["cross_et", "p_cross", "q_tittle", "omega_form"],
+                ["est_sigla", "ser_loop", "q_barmacron"]
+            ]
+        }
     
     engine = MasterVoynichCodexEngine(token_dictionary=active_lexicon)
     master_report = engine.process_codex(codex_corpus_data)
     engine.export_html_dashboard(master_report)
+    engine.export_markdown_log(master_report)
