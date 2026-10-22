@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FVSM Advanced Codex Visualization Dashboard</title>
+    <title>FVSM Full-Page Codex Visualization Dashboard</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 40px; }
         .container { max-width: 1000px; margin: 0 auto; }
@@ -21,44 +21,47 @@
 </head>
 <body>
     <div class="container">
-        <h1>🔮 FVSM Advanced Codex Reconstruction & Analytics</h1>
-        <p>14th-Century Latin Shorthand with Automated Suffix Expansion & N-Gram Profiling</p>
+        <h1>🔮 FVSM Full-Page Codex Reconstruction & Analytics</h1>
+        <p>14th-Century Latin Shorthand Full-Page Layout with Suffix Expansion & N-Gram Profiling</p>
         
         <div class="analytics-box">
             <h3 style="margin-top: 0; color: #38bdf8;">📊 Corpus Syntax Frequency (Top Bi-grams)</h3>
             <div class="ngram-list">
-<div class="ngram-pill">peribus um (1)</div><div class="ngram-pill">um cum (1)</div><div class="ngram-pill">cum non (1)</div>            </div>
+<div class="ngram-pill">cum non (3)</div><div class="ngram-pill">peribus um (2)</div><div class="ngram-pill">um cum (2)</div>            </div>
         </div>
 
         <div class="folio-card">
             <div class="folio-header">
                 <div class="folio-title">📖 Folio Target: FOLIO_1R</div>
-                <div class="badge">Confidence: 93.8%</div>
+                <div class="badge">Confidence: 87.7%</div>
             </div>
             <div class="rows-container">
                 <div class="row-item"><span>Row 1: peribus um cum non</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
-                <div class="row-item"><span>Row 2: pro quam aut sed</span><span style="color: #38bdf8;">100.0% Conf.</span></div>
+                <div class="row-item"><span>Row 2: pro quam aut sed us</span><span style="color: #38bdf8;">100.0% Conf.</span></div>
+                <div class="row-item"><span>Row 3: et est serorum</span><span style="color: #38bdf8;">83.3% Conf.</span></div>
+                <div class="row-item"><span>Row 4: que peribus um cum non</span><span style="color: #38bdf8;">80.0% Conf.</span></div>
             </div>
             <div class="themes">
-                <span class="theme-tag">Operational: 2</span>
-                <span class="theme-tag">Logical: 3</span>
-                <span class="theme-tag">Substance: 3</span>
+                <span class="theme-tag">Operational: 4</span>
+                <span class="theme-tag">Logical: 4</span>
+                <span class="theme-tag">Substance: 9</span>
             </div>
         </div>
 
         <div class="folio-card">
             <div class="folio-header">
                 <div class="folio-title">📖 Folio Target: FOLIO_1V</div>
-                <div class="badge">Confidence: 85.4%</div>
+                <div class="badge">Confidence: 90.3%</div>
             </div>
             <div class="rows-container">
                 <div class="row-item"><span>Row 1: et peribus que us</span><span style="color: #38bdf8;">87.5% Conf.</span></div>
                 <div class="row-item"><span>Row 2: est serorum quam</span><span style="color: #38bdf8;">83.3% Conf.</span></div>
+                <div class="row-item"><span>Row 3: pro cum non</span><span style="color: #38bdf8;">100.0% Conf.</span></div>
             </div>
             <div class="themes">
-                <span class="theme-tag">Operational: 2</span>
+                <span class="theme-tag">Operational: 3</span>
                 <span class="theme-tag">Logical: 2</span>
-                <span class="theme-tag">Substance: 3</span>
+                <span class="theme-tag">Substance: 5</span>
             </div>
         </div>
 

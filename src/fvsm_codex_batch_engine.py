@@ -1,5 +1,5 @@
 """
-Voynich_Project: Master FVSM Codex Engine with CLI, Markdown Export & Advanced Analytics
+Voynich_Project: Master FVSM Codex Engine with Full-Page Folio Support, CLI, & Markdown Export
 """
 
 from typing import List, Dict, Any
@@ -65,7 +65,7 @@ class MasterVoynichCodexEngine:
         codex_report = {}
         global_word_stream = []
         
-        print("📚 Initiating Master FVSM Codex Pipeline...")
+        print("📚 Initiating Master FVSM Full-Page Codex Pipeline...")
         for folio_id, text_rows in codex_folios.items():
             print(f"   -> Processing {folio_id} ({len(text_rows)} rows detected)...")
             folio_output = []
@@ -93,15 +93,14 @@ class MasterVoynichCodexEngine:
             }
             
         codex_report["corpus_analytics"] = self.analyze_ngram_frequencies(global_word_stream)
-        print("✅ Pipeline Execution Completed Successfully.")
+        print("✅ Full-Page Pipeline Execution Completed Successfully.")
         return codex_report
 
     def export_markdown_log(self, master_report: Dict[str, Any], filename: str = "codex_research_log.md"):
-        """Exports a clean markdown research log for repository documentation."""
         corpus_data = master_report.get("corpus_analytics", {"top_bigrams": [], "top_trigrams": []})
         
-        md_content = "# 🔮 FVSM Master Codex Research Log\n\n"
-        md_content += "Automated 14th-Century Latin Shorthand Decipherment & Corpus Analytics.\n\n"
+        md_content = "# 🔮 FVSM Master Codex Research Log (Full-Page)\n\n"
+        md_content += "Automated 14th-Century Latin Shorthand Full-Page Decipherment & Corpus Analytics.\n\n"
         md_content += "## 📊 Corpus Syntax Frequency (Top Bi-grams)\n"
         for bg, count in corpus_data["top_bigrams"]:
             md_content += f"- `{bg}` ({count} occurrences)\n"
@@ -118,7 +117,7 @@ class MasterVoynichCodexEngine:
 
         with open(filename, "w", encoding="utf-8") as f:
             f.write(md_content)
-        print(f"✨ Markdown Research Log Exported to: {filename}")
+        print(f"✨ Full-Page Markdown Research Log Exported to: {filename}")
 
     def export_html_dashboard(self, master_report: Dict[str, Any], filename: str = "fvsm_codex_master_dashboard.html"):
         corpus_data = master_report.get("corpus_analytics", {"top_bigrams": [], "top_trigrams": []})
@@ -127,7 +126,7 @@ class MasterVoynichCodexEngine:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FVSM Advanced Codex Visualization Dashboard</title>
+    <title>FVSM Full-Page Codex Visualization Dashboard</title>
     <style>
         body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 40px; }}
         .container {{ max-width: 1000px; margin: 0 auto; }}
@@ -146,8 +145,8 @@ class MasterVoynichCodexEngine:
 </head>
 <body>
     <div class="container">
-        <h1>🔮 FVSM Advanced Codex Reconstruction & Analytics</h1>
-        <p>14th-Century Latin Shorthand with Automated Suffix Expansion & N-Gram Profiling</p>
+        <h1>🔮 FVSM Full-Page Codex Reconstruction & Analytics</h1>
+        <p>14th-Century Latin Shorthand Full-Page Layout with Suffix Expansion & N-Gram Profiling</p>
         
         <div class="analytics-box">
             <h3 style="margin-top: 0; color: #38bdf8;">📊 Corpus Syntax Frequency (Top Bi-grams)</h3>
@@ -191,10 +190,10 @@ class MasterVoynichCodexEngine:
 """
         with open(filename, "w", encoding="utf-8") as f:
             f.write(html_content)
-        print(f"✨ Interactive HTML Dashboard Exported to: {filename}")
+        print(f"✨ Full-Page Interactive HTML Dashboard Exported to: {filename}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run FVSM Codex Master Decipherment Engine")
+    parser = argparse.ArgumentParser(description="Run FVSM Codex Full-Page Engine")
     parser.add_argument("--input", type=str, help="Path to external JSON transcription file", default=None)
     args = parser.parse_args()
 
@@ -223,14 +222,18 @@ if __name__ == "__main__":
             print(f"❌ Error loading input file: {e}")
             sys.exit(1)
     else:
+        # Full-Page Structured Corpus Dataset
         codex_corpus_data = {
             "folio_1r": [
                 ["p_cross", "macron_suspension", "con_sigla", "non_tilde"],
-                ["p_curl", "q_barmacron", "aut_sigla", "sed_sigla"]
+                ["p_curl", "q_barmacron", "aut_sigla", "sed_sigla", "omega_form"],
+                ["cross_et", "est_sigla", "ser_loop"],
+                ["q_tittle", "p_cross", "macron_suspension", "con_sigla", "non_tilde"]
             ],
             "folio_1v": [
                 ["cross_et", "p_cross", "q_tittle", "omega_form"],
-                ["est_sigla", "ser_loop", "q_barmacron"]
+                ["est_sigla", "ser_loop", "q_barmacron"],
+                ["p_curl", "con_sigla", "non_tilde"]
             ]
         }
     
