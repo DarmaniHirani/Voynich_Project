@@ -1,3 +1,5 @@
+
+from vectorized_engine import VectorizedVoynichEngine
 """
 Voynich_Project: Master FVSM Codex Engine with Full-Page Folio Support, CLI, & Markdown Export
 """
