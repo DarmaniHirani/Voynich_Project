@@ -1,0 +1,23 @@
+{
+    "folio_1r": [
+        ["p_cross", "macron_suspension", "con_sigla", "non_tilde"],
+        ["p_curl", "q_barmacron", "aut_sigla", "sed_sigla", "omega_form"],
+        ["cross_et", "est_sigla", "ser_loop"],
+        ["q_tittle", "p_cross", "macron_suspension", "con_sigla", "non_tilde"]
+    ],
+    "folio_1v": [
+        ["cross_et", "p_cross", "q_tittle", "omega_form"],
+        ["est_sigla", "ser_loop", "q_barmacron"],
+        ["p_curl", "con_sigla", "non_tilde"]
+    ],
+    "folio_2r": [
+        ["p_cross", "p_curl", "ser_loop", "macron_suspension"],
+        ["q_tittle", "con_sigla", "non_tilde", "est_sigla"],
+        ["aut_sigla", "sed_sigla", "omega_form"]
+    ],
+    "folio_15r": [
+        ["omega_form", "cross_et", "p_cross", "q_barmacron"],
+        ["macron_suspension", "ser_loop", "con_sigla"],
+        ["p_curl", "non_tilde", "est_sigla", "aut_sigla"]
+    ]
+}
