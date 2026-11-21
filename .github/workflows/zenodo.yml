@@ -1,17 +1,51 @@
 name: Publish to Zenodo
+
 on:
   release:
     types: [published]
+
 jobs:
   zenodo:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Publish release to Zenodo
-        uses: zenodo/gh-action-zenodo@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          zenodo_token: ${{ secrets.ZENODO_TOKEN }}
-          concept_doi: ''
-          metadata: .zenodo.json
+
+      - name: Create release archive
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          git archive --format=zip --prefix="DarmaniHirani-Voynich_Project-${TAG}/" HEAD -o "DarmaniHirani-Voynich_Project-${TAG}.zip"
+
+      - name: Upload and publish to Zenodo
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          python3 - << 'PY'
+          import json, os, urllib.request
+
+          token = os.environ["ZENODO_TOKEN"]
+          tag = os.environ["TAG_NAME"]
+          zip_name = f"DarmaniHirani-Voynich_Project-{tag}.zip"
+
+          with open(".zenodo.json", "r", encoding="utf-8") as f:
+              meta = json.load(f)
+          meta["version"] = tag.lstrip("v")
+
+          def api(url, data=None, method="POST", content_type="application/json"):
+              headers = {"Authorization": f"Bearer {token}"}
+              if content_type:
+                  headers["Content-Type"] = content_type
+              req = urllib.request.Request(url, data=data, headers=headers, method=method)
+              with urllib.request.urlopen(req) as resp:
+                  return json.loads(resp.read().decode("utf-8"))
+
+          dep = api("https://zenodo.org/api/deposit/depositions", data=json.dumps({"metadata": meta}).encode("utf-8"))
+          bucket_url = dep["links"]["bucket"]
+
+          with open(zip_name, "rb") as f:
+              api(f"{bucket_url}/{zip_name}", data=f.read(), method="PUT", content_type="application/octet-stream")
+
+          pub = api(dep["links"]["publish"], data=b"", method="POST")
+          print("Published Zenodo DOI:", pub.get("doi"))
+          PY
