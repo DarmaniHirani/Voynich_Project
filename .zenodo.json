@@ -1,0 +1,12 @@
+{
+  "title": "Voynich Manuscript Paleographic & FVSM Analysis Engine",
+  "upload_type": "software",
+  "description": "Computational methodology and verification pipeline for historical manuscript analysis using the Fixed Vector Shorthand Model (FVSM).",
+  "creators": [
+    {
+      "name": "Hirani, Darmani"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT"
+}
